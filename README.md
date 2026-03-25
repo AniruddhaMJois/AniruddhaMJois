@@ -1,7 +1,7 @@
-# Srinivas P
+# Aniruddh M
 
 ## 👋 About Me
-Hello! I'm a passionate developer who enjoys learning new technologies, building projects, and improving problem-solving skills.
+Hello, I am a tech-enthusiast exploring full stack web development and DSA in Java, my vision is to solving real world problems using modern AI
 
 ---
 
