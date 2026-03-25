@@ -13,7 +13,6 @@ Hello, I am a tech-enthusiast exploring full stack web development and DSA in Ja
 <img src="https://skillicons.dev/icons?i=css" height="50" alt="CSS3"/>
 <img src="https://skillicons.dev/icons?i=js" height="50" alt="JavaScript"/>
 <img src="https://skillicons.dev/icons?i=java" height="50" alt="Java"/>
-<img src="https://skillicons.dev/icons?i=python" height="50" alt="Python"/>
 <img src="https://skillicons.dev/icons?i=c" height="50" alt="C"/>
 <img src="https://skillicons.dev/icons?i=cpp" height="50" alt="C++"/>
 <img src="https://skillicons.dev/icons?i=git" height="50" alt="Git"/>
