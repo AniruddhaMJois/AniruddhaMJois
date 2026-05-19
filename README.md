@@ -8,22 +8,16 @@
 
 <br/>
 
-<!-- Contact Icons - Clean Minimal Style -->
-<a href="mailto:aniruddhajois@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
-</a>
-&nbsp;
-<a href="https://www.linkedin.com/in/aniruddha-m-jois-67a0b6376">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-</a>
-&nbsp;
-<a href="https://github.com/AniruddhaMJois">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-</a>
-&nbsp;
-<a href="https://instagram.com/jois_aniruddha">
-  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
-</a>
+<!-- Contact Icons -->
+<p>
+<a href="mailto:aniruddhajois@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" alt="Gmail" /></a>
+&nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/aniruddha-m-jois-67a0b6376"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" /></a>
+&nbsp;&nbsp;
+<a href="https://github.com/AniruddhaMJois"><img src="https://skillicons.dev/icons?i=github" alt="GitHub" /></a>
+&nbsp;&nbsp;
+<a href="https://instagram.com/jois_aniruddha"><img src="https://skillicons.dev/icons?i=instagram" alt="Instagram" /></a>
+</p>
 
 </div>
 
@@ -70,7 +64,8 @@
 
 #### ⚙️ &nbsp;Embedded & Design
 <p>
-<img src="https://img.shields.io/badge/Embedded_C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="Embedded C++" />
+<img src="https://skillicons.dev/icons?i=cpp,arduino" alt="Embedded" />
+&nbsp;
 <img src="https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP32" />
 <img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white" alt="Canva" />
 </p>
@@ -183,21 +178,15 @@
 
 <p><em>I'm always open to collaborating on innovative projects and hackathons. Feel free to reach out!</em></p>
 
-<a href="mailto:aniruddhajois@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
-</a>
-&nbsp;
-<a href="https://www.linkedin.com/in/aniruddha-m-jois-67a0b6376">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-</a>
-&nbsp;
-<a href="https://github.com/AniruddhaMJois">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-</a>
-&nbsp;
-<a href="https://instagram.com/jois_aniruddha">
-  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
-</a>
+<p>
+<a href="mailto:aniruddhajois@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" alt="Gmail" /></a>
+&nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/aniruddha-m-jois-67a0b6376"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" /></a>
+&nbsp;&nbsp;
+<a href="https://github.com/AniruddhaMJois"><img src="https://skillicons.dev/icons?i=github" alt="GitHub" /></a>
+&nbsp;&nbsp;
+<a href="https://instagram.com/jois_aniruddha"><img src="https://skillicons.dev/icons?i=instagram" alt="Instagram" /></a>
+</p>
 
 <br/><br/>
 
