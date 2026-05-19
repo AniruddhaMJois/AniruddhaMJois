@@ -25,19 +25,29 @@
 
 ---
 
-<img align="right" alt="Coding" width="380" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif"/>
+<img align="right" alt="Developer" width="400" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif"/>
 
 ### 🧑‍💻 &nbsp;About Me
 
-> *Passionate developer turning ideas into impact through code & hardware.*
+```yaml
+name: Aniruddha M Jois
+role: Full Stack Developer | IoT Enthusiast
+location: India
+education: Vidya Vardhaka College of Engineering
 
-- 🔭 &nbsp;Currently working on **Gladiators NGO** — a platform for NGO communities
-- 🏆 &nbsp;**1st Prize** at **Clash of Cortex** — pitched *SafeX*
+currently_working_on: Gladiators NGO
+learning: [ React, Vercel ]
+interests: [ IoT, Embedded Systems, Full Stack Dev ]
+
+fun_fact: "I turn hackathon ideas into real-world solutions 🚀"
+```
+
+<br/>
+
+- 🏆 &nbsp;**1st Prize** at **Clash of Cortex** — pitched *SafeX*, a women's safety platform
 - 🥈 &nbsp;**2nd Prize** at **ThermoSpark** — built a *Battery Thermal Runaway Identifier*
-- 💡 &nbsp;Building **TuskRes** — an innovative concept in ideation
-- 🌱 &nbsp;Currently learning **React** & **Vercel** deployments
-- 🎓 &nbsp;Exploring **IoT**, **Embedded Systems** & **Full Stack Development**
-- ⚡ &nbsp;Fun fact: I love turning hackathon ideas into real-world solutions
+- 💡 &nbsp;Building **TuskRes** — an innovative concept in the ideation phase
+- 🔭 &nbsp;Currently building **Gladiators NGO** — a platform for NGO communities
 
 <br clear="both"/>
 
