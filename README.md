@@ -10,19 +10,19 @@
 
 <!-- Contact Icons - Clean Minimal Style -->
 <a href="mailto:aniruddhajois@gmail.com">
-  <img src="https://img.shields.io/badge/Email-aniruddhajois%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
+  <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
 </a>
 &nbsp;
 <a href="https://www.linkedin.com/in/aniruddha-m-jois-67a0b6376">
-  <img src="https://img.shields.io/badge/LinkedIn-Aniruddha%20M%20Jois-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
 &nbsp;
 <a href="https://github.com/AniruddhaMJois">
-  <img src="https://img.shields.io/badge/GitHub-AniruddhaMJois-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
 </a>
 &nbsp;
 <a href="https://instagram.com/jois_aniruddha">
-  <img src="https://img.shields.io/badge/Instagram-jois__aniruddha-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" />
+  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
 </a>
 
 </div>
@@ -184,19 +184,19 @@
 <p><em>I'm always open to collaborating on innovative projects and hackathons. Feel free to reach out!</em></p>
 
 <a href="mailto:aniruddhajois@gmail.com">
-  <img src="https://img.shields.io/badge/Email-aniruddhajois%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
+  <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
 </a>
 &nbsp;
 <a href="https://www.linkedin.com/in/aniruddha-m-jois-67a0b6376">
-  <img src="https://img.shields.io/badge/LinkedIn-Aniruddha%20M%20Jois-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
 &nbsp;
 <a href="https://github.com/AniruddhaMJois">
-  <img src="https://img.shields.io/badge/GitHub-AniruddhaMJois-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
 </a>
 &nbsp;
 <a href="https://instagram.com/jois_aniruddha">
-  <img src="https://img.shields.io/badge/Instagram-jois__aniruddha-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" />
+  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
 </a>
 
 <br/><br/>
