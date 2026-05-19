@@ -1,68 +1,76 @@
 <div align="center">
 
-<!-- Typing SVG Header -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=35&pause=1000&color=6C63FF&center=true&vCenter=true&random=false&width=600&height=70&lines=ANIRUDDHA+M+JOIS" alt="Name" /></a>
+<!-- Animated Wave Header -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=ANIRUDDHA%20M%20JOIS&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full%20Stack%20Developer%20%7C%20IoT%20Enthusiast%20%7C%20Embedded%20Systems&descSize=16&descAlignY=55&descAlign=50" width="100%" />
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&random=false&width=600&height=45&lines=Full+Stack+Developer+%7C+IoT+Enthusiast;Embedded+Systems+%7C+Problem+Solver;Building+Solutions+That+Matter" alt="Tagline" /></a>
+<!-- Animated Typing Subtitle -->
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=650&height=50&lines=%E2%9A%A1+Building+Solutions+That+Matter+%E2%9A%A1" alt="Tagline" /></a>
 
 <br/>
 
-<!-- Profile Views & Followers -->
-<img src="https://komarev.com/ghpvc/?username=AniruddhaMJois&label=Profile%20Views&color=6C63FF&style=for-the-badge" alt="Profile Views" />
-<a href="https://github.com/AniruddhaMJois?tab=followers"><img src="https://img.shields.io/github/followers/AniruddhaMJois?label=Followers&style=for-the-badge&color=A78BFA" alt="Followers" /></a>
-
-<br/><br/>
-
-<!-- Social Contact Icons -->
-<a href="mailto:aniruddhajois@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
-<a href="https://www.linkedin.com/in/aniruddha-m-jois-67a0b6376"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="https://github.com/AniruddhaMJois"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-<a href="https://instagram.com/jois_aniruddha"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
+<!-- Contact Icons - Clean Minimal Style -->
+<a href="mailto:aniruddhajois@gmail.com">
+  <img src="https://img.shields.io/badge/Email-aniruddhajois%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
+</a>
+&nbsp;
+<a href="https://www.linkedin.com/in/aniruddha-m-jois-67a0b6376">
+  <img src="https://img.shields.io/badge/LinkedIn-Aniruddha%20M%20Jois-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
+&nbsp;
+<a href="https://github.com/AniruddhaMJois">
+  <img src="https://img.shields.io/badge/GitHub-AniruddhaMJois-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
+</a>
+&nbsp;
+<a href="https://instagram.com/jois_aniruddha">
+  <img src="https://img.shields.io/badge/Instagram-jois__aniruddha-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" />
+</a>
 
 </div>
 
+<br/>
+
 ---
 
-<img align="right" alt="Coding" width="400" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif"/>
+<img align="right" alt="Coding" width="380" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif"/>
 
-### 🧑‍💻 About Me
+### 🧑‍💻 &nbsp;About Me
 
-- 🔭 I'm currently working on **Gladiators NGO** — a platform to connect and empower NGO communities
-- 🏆 **1st Prize** at **Clash of Cortex** — pitched *SafeX*, a women's safety platform
-- 🥈 **2nd Prize** at **ThermoSpark** — built a *Battery Thermal Runaway Identifier*
-- 💡 Developing **TuskRes** — an innovative concept in the ideation phase
-- 🌱 Exploring **IoT**, **Embedded Systems**, and **Full Stack Development**
-- ⚡ Fun fact: I love turning hackathon ideas into real-world solutions
+> *Passionate developer turning ideas into impact through code & hardware.*
+
+- 🔭 &nbsp;Currently working on **Gladiators NGO** — a platform for NGO communities
+- 🏆 &nbsp;**1st Prize** at **Clash of Cortex** — pitched *SafeX*
+- 🥈 &nbsp;**2nd Prize** at **ThermoSpark** — built a *Battery Thermal Runaway Identifier*
+- 💡 &nbsp;Building **TuskRes** — an innovative concept in ideation
+- 🌱 &nbsp;Currently learning **React** & **Vercel** deployments
+- 🎓 &nbsp;Exploring **IoT**, **Embedded Systems** & **Full Stack Development**
+- ⚡ &nbsp;Fun fact: I love turning hackathon ideas into real-world solutions
 
 <br clear="both"/>
 
 ---
 
-## 🛠️ Tech Stack & Skills
+## 🛠️ &nbsp;Tech Stack & Skills
 
 <div align="center">
 
-#### 💻 Languages
+#### 💻 &nbsp;Languages
 <p>
-<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
-<img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" alt="C" />
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+<img src="https://skillicons.dev/icons?i=java,cpp,c,python" alt="Languages" />
+</p>
+
+#### 🌐 &nbsp;Web Technologies
+<p>
+<img src="https://skillicons.dev/icons?i=html,css,js,react" alt="Web Tech" />
+</p>
+
+#### 🔧 &nbsp;Tools & Platforms
+<p>
+<img src="https://skillicons.dev/icons?i=github,git,arduino,vercel" alt="Tools" />
+</p>
+
+#### ⚙️ &nbsp;Embedded & Design
+<p>
 <img src="https://img.shields.io/badge/Embedded_C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="Embedded C++" />
-</p>
-
-#### 🌐 Web Technologies
-<p>
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-</p>
-
-#### 🔧 Tools & Platforms
-<p>
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-<img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino" />
 <img src="https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP32" />
 <img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white" alt="Canva" />
 </p>
@@ -71,59 +79,47 @@
 
 ---
 
-## 🏆 Achievements & Hackathons
+## 🏆 &nbsp;Achievements & Hackathons
 
 <div align="center">
 
-| 🥇 Position | 🏅 Event | 📋 Project | 📝 Description |
+| &nbsp; | 🏅 Event | 📋 Project | 📝 Description |
 |:---:|:---:|:---:|:---|
-| **🥇 1st Prize** | **Clash of Cortex** | [**SafeX**](https://github.com/AniruddhaMJois/safex) | A comprehensive women's safety platform with real-time threat detection and emergency response features |
-| **🥈 2nd Prize** | **ThermoSpark** | [**Battery Thermal Runaway Identifier**](https://github.com/AniruddhaMJois/battery-thermal-runaway-identifier) | An IoT-based system that detects and predicts battery thermal runaway conditions to prevent catastrophic failures |
+| 🥇 **1st Prize** | **Clash of Cortex** | [**SafeX**](https://github.com/AniruddhaMJois/safex) | Women's safety platform with real-time threat detection and emergency response |
+| 🥈 **2nd Prize** | **ThermoSpark** | [**Battery Thermal Runaway Identifier**](https://github.com/AniruddhaMJois/battery-thermal-runaway-identifier) | IoT-based system to detect and predict battery thermal runaway conditions |
 
 </div>
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 &nbsp;Featured Projects
 
 <div align="center">
 
-<a href="https://github.com/AniruddhaMJois/safex">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=AniruddhaMJois&repo=safex&theme=tokyonight&hide_border=true&border_radius=15" alt="SafeX" />
-</a>
-<a href="https://github.com/AniruddhaMJois/battery-thermal-runaway-identifier">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=AniruddhaMJois&repo=battery-thermal-runaway-identifier&theme=tokyonight&hide_border=true&border_radius=15" alt="Battery Thermal Runaway Identifier" />
-</a>
-<a href="https://github.com/AniruddhaMJois/tuskres">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=AniruddhaMJois&repo=tuskres&theme=tokyonight&hide_border=true&border_radius=15" alt="TuskRes" />
-</a>
-<a href="https://github.com/AniruddhaMJois/gladiators-ngo">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=AniruddhaMJois&repo=gladiators-ngo&theme=tokyonight&hide_border=true&border_radius=15" alt="Gladiators NGO" />
-</a>
+| Project | Description | Tech | Status |
+|:---|:---|:---:|:---:|
+| [**🛡️ SafeX**](https://github.com/AniruddhaMJois/safex) | Women's safety platform with real-time threat detection & emergency response | `TypeScript` | 🏆 1st — Clash of Cortex |
+| [**🔋 Battery Thermal Runaway Identifier**](https://github.com/AniruddhaMJois/battery-thermal-runaway-identifier) | IoT system for detecting & predicting battery thermal runaway | `CSS` `HTML` `JS` | 🏆 2nd — ThermoSpark |
+| [**🐘 TuskRes**](https://github.com/AniruddhaMJois/tuskres) | An innovative concept currently in ideation & development | `JavaScript` | 💡 In Development |
+| [**🤝 Gladiators NGO**](https://github.com/AniruddhaMJois/gladiators-ngo) | Platform to connect and empower NGO communities | `JavaScript` | 🔨 Actively Building |
 
 </div>
 
-| Project | Description | Status |
-|:---|:---|:---:|
-| [**SafeX**](https://github.com/AniruddhaMJois/safex) | 🛡️ Women's safety platform with real-time threat detection & emergency response | 🏆 Won 1st at Clash of Cortex |
-| [**Battery Thermal Runaway Identifier**](https://github.com/AniruddhaMJois/battery-thermal-runaway-identifier) | 🔋 IoT system for detecting & predicting battery thermal runaway conditions | 🏆 Won 2nd at ThermoSpark |
-| [**TuskRes**](https://github.com/AniruddhaMJois/tuskres) | 🐘 An innovative concept currently in ideation & development | 💡 In Development |
-| [**Gladiators NGO**](https://github.com/AniruddhaMJois/gladiators-ngo) | 🤝 Platform to connect and empower NGO communities | 🔨 Actively Working |
-
 ---
 
-## 📊 GitHub Analytics
+## 📊 &nbsp;GitHub Analytics
 
 <div align="center">
 
-<!-- GitHub Stats -->
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=AniruddhaMJois&show_icons=true&theme=tokyonight&hide_border=true&border_radius=15&count_private=true&include_all_commits=true" alt="GitHub Stats" />
+<!-- GitHub Streak Stats -->
 <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=AniruddhaMJois&theme=tokyonight&hide_border=true&border_radius=15" alt="GitHub Streak" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AniruddhaMJois&theme=tokyonight" alt="Profile Details" />
 
 <br/><br/>
 
-<!-- Top Languages -->
-<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AniruddhaMJois&layout=compact&theme=tokyonight&hide_border=true&border_radius=15&langs_count=10" alt="Top Languages" />
+<img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=AniruddhaMJois&theme=tokyonight" alt="Repos per Language" />
+<img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=AniruddhaMJois&theme=tokyonight" alt="Most Commit Language" />
+<img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=AniruddhaMJois&theme=tokyonight" alt="Stats" />
 
 <br/><br/>
 
@@ -134,7 +130,7 @@
 
 ---
 
-## 🐍 Contribution Snake
+## 🐍 &nbsp;Contribution Snake
 
 <div align="center">
 
@@ -144,29 +140,13 @@
   <img alt="github-snake" src="https://raw.githubusercontent.com/AniruddhaMJois/AniruddhaMJois/output/github-snake.svg" />
 </picture>
 
-</div>
-
----
-
-## 📈 Real-Time Activity
-
-<!--START_SECTION:activity-->
-1. 🔨 Currently building **Gladiators NGO** — a platform for NGO community engagement
-2. 💡 Ideating on **TuskRes** — exploring innovative solutions
-3. 🛡️ Maintaining **SafeX** — women's safety platform
-4. 🔋 Iterating on **Battery Thermal Runaway Identifier**
-<!--END_SECTION:activity-->
-
-<div align="center">
-
-<!-- WakaTime Stats (if configured) -->
-<!-- <img width="49%" src="https://github-readme-stats.vercel.app/api/wakatime?username=AniruddhaMJois&theme=tokyonight&hide_border=true&border_radius=15" alt="WakaTime Stats" /> -->
+> ⏳ *Snake animation auto-generates via GitHub Actions — run the workflow manually under the [Actions tab](https://github.com/AniruddhaMJois/AniruddhaMJois/actions) for instant results!*
 
 </div>
 
 ---
 
-## 🤝 Currently Working On
+## 🔭 &nbsp;Currently Working On
 
 <div align="center">
 
@@ -176,22 +156,48 @@
 ├── 🐘 TuskRes                → Ideation & Development phase
 ├── 🛡️ SafeX                  → Maintaining & improving the platform
 └── 🔋 Thermal Runaway ID     → Enhancing IoT detection capabilities
+
+🌱 Currently Learning
+├── ⚛️  React                  → Frontend framework
+└── ▲  Vercel                 → Deployment & hosting
 ```
 
 </div>
 
 ---
 
+## 📈 &nbsp;Real-Time Activity
+
+<!--START_SECTION:activity-->
+1. 🔨 Currently building **Gladiators NGO** — a platform for NGO community engagement
+2. 💡 Ideating on **TuskRes** — exploring innovative solutions
+3. 🛡️ Maintaining **SafeX** — women's safety platform
+4. 🔋 Iterating on **Battery Thermal Runaway Identifier**
+<!--END_SECTION:activity-->
+
+---
+
 <div align="center">
 
-### 💬 Let's Connect & Collaborate!
+### 💬 &nbsp;Let's Connect & Collaborate!
 
-<p>I'm always open to collaborating on innovative projects and hackathons. Feel free to reach out!</p>
+<p><em>I'm always open to collaborating on innovative projects and hackathons. Feel free to reach out!</em></p>
 
-<a href="mailto:aniruddhajois@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
-<a href="https://www.linkedin.com/in/aniruddha-m-jois-67a0b6376"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="https://github.com/AniruddhaMJois"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-<a href="https://instagram.com/jois_aniruddha"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
+<a href="mailto:aniruddhajois@gmail.com">
+  <img src="https://img.shields.io/badge/Email-aniruddhajois%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
+</a>
+&nbsp;
+<a href="https://www.linkedin.com/in/aniruddha-m-jois-67a0b6376">
+  <img src="https://img.shields.io/badge/LinkedIn-Aniruddha%20M%20Jois-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
+&nbsp;
+<a href="https://github.com/AniruddhaMJois">
+  <img src="https://img.shields.io/badge/GitHub-AniruddhaMJois-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
+</a>
+&nbsp;
+<a href="https://instagram.com/jois_aniruddha">
+  <img src="https://img.shields.io/badge/Instagram-jois__aniruddha-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" />
+</a>
 
 <br/><br/>
 
