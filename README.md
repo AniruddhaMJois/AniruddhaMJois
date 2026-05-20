@@ -193,15 +193,20 @@ Embedded IoT system on ESP32 with C++ firmware to detect & predict battery therm
 
 <div align="center">
 
-<!-- GitHub Streak Stats -->
+<!-- GitHub Stats & Streak Stats -->
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=AniruddhaMJois&show_icons=true&theme=tokyonight&hide_border=true&border_radius=15&include_all_commits=true&count_private=true" alt="GitHub Stats" />
 <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=AniruddhaMJois&theme=tokyonight&hide_border=true&border_radius=15" alt="GitHub Streak" />
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AniruddhaMJois&theme=tokyonight" alt="Profile Details" />
 
 <br/><br/>
 
-<img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=AniruddhaMJois&theme=tokyonight" alt="Repos per Language" />
-<img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=AniruddhaMJois&theme=tokyonight" alt="Most Commit Language" />
-<img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=AniruddhaMJois&theme=tokyonight" alt="Stats" />
+<!-- Profile Summary Cards -->
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AniruddhaMJois&theme=tokyonight" alt="Profile Details" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=AniruddhaMJois&theme=tokyonight" alt="Stats" />
+
+<br/><br/>
+
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=AniruddhaMJois&theme=tokyonight" alt="Repos per Language" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=AniruddhaMJois&theme=tokyonight" alt="Most Commit Language" />
 
 <br/><br/>
 
