@@ -10,7 +10,7 @@
 
 <!-- Contact Icons -->
 <p>
-<a href="mailto:aniruddhajois@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" alt="Gmail" /></a>
+<a href="mailto:aniruddhamanjunathajois1tab@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" alt="Gmail" /></a>
 &nbsp;&nbsp;
 <a href="https://www.linkedin.com/in/aniruddha-m-jois-67a0b6376"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" /></a>
 &nbsp;&nbsp;
@@ -254,7 +254,7 @@ Embedded IoT system on ESP32 with C++ firmware to detect & predict battery therm
 <p><em>I'm always open to collaborating on innovative projects and hackathons. Feel free to reach out!</em></p>
 
 <p>
-<a href="mailto:aniruddhajois@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" alt="Gmail" /></a>
+<a href="mailto:aniruddhamanjunathajois1tab@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" alt="Gmail" /></a>
 &nbsp;&nbsp;
 <a href="https://www.linkedin.com/in/aniruddha-m-jois-67a0b6376"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" /></a>
 &nbsp;&nbsp;
