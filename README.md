@@ -23,39 +23,59 @@
 
 <br/>
 
----
+## 🧑‍💻 &nbsp;About Me
 
-<img align="right" alt="Developer" width="400" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif"/>
-
-### 🧑‍💻 &nbsp;About Me
+<div align="center">
 
 ```yaml
-name: Aniruddha M Jois
-role: Full Stack Developer | IoT Enthusiast
-location: India
-education: Vidya Vardhaka College of Engineering
-
-currently_working_on: Gladiators NGO
-learning: [ React, Vercel ]
-interests: [ IoT, Embedded Systems, Full Stack Dev ]
-
-fun_fact: "I turn hackathon ideas into real-world solutions 🚀"
+name      : "Aniruddha M Jois"
+role      : "Full Stack Developer  ·  IoT Enthusiast  ·  Embedded Systems"
+location  : "India 🇮🇳"
+education : "Vidya Vardhaka College of Engineering"
+interests : ["Web Dev", "Embedded Systems", "IoT", "Hackathons"]
+currently : "Building Gladiators NGO Platform"
+learning  : ["React", "Vercel", "Advanced IoT"]
+open_to   : "Collaborations & Hackathons 🤝"
 ```
 
-<br/>
+> 💡 *"Turning hackathon ideas into production‑ready products — one commit at a time."*
 
-- 🏆 &nbsp;**1st Prize** at **Clash of Cortex** — pitched *SafeX*, a women's safety platform
-- 🥈 &nbsp;**2nd Prize** at **ThermoSpark** — built a *Battery Thermal Runaway Identifier*
-- 💡 &nbsp;Building **TuskRes** — an innovative concept in the ideation phase
-- 🔭 &nbsp;Currently building **Gladiators NGO** — a platform for NGO communities
+</div>
 
-<br clear="both"/>
+---
+
+## 🚧 &nbsp;What I'm Building
+
+<div align="center">
+
+```
+╔══════════════════════════════════════════════════════════════════════╗
+║                   ACTIVE DEVELOPMENT BOARD                          ║
+╠══════════════════════════════════════════════════════════════════════╣
+║  🤝  Gladiators NGO    ▓▓▓▓▓▓▓░░░  70%  │ In Progress │ Web App    ║
+║  🐘  TuskRes           ▓▓▓░░░░░░░  30%  │ Ideation    │ Concept    ║
+║  🛡️   SafeX             ▓▓▓▓▓▓▓▓▓▓ 100%  │ Maintained  │ Full Stack ║
+║  🔋  Thermal Runaway   ▓▓▓▓▓▓▓▓▓▓ 100%  │ Maintained  │ ESP32·C++ ║
+╠══════════════════════════════════════════════════════════════════════╣
+║  🌱  Learning :  React  ·  Vercel Deployments  ·  Advanced IoT      ║
+╚══════════════════════════════════════════════════════════════════════╝
+```
+
+</div>
 
 ---
 
 ## 🛠️ &nbsp;Tech Stack & Skills
 
 <div align="center">
+
+#### ⚙️ &nbsp;Embedded & Hardware
+<p>
+<img src="https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP32" />
+<img src="https://img.shields.io/badge/Embedded_C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="Embedded C++" />
+<img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino" />
+<img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white" alt="Canva" />
+</p>
 
 #### 💻 &nbsp;Languages
 <p>
@@ -81,43 +101,117 @@ fun_fact: "I turn hackathon ideas into real-world solutions 🚀"
 <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
 </p>
 
-#### ⚙️ &nbsp;Embedded & Design
-<p>
-<img src="https://img.shields.io/badge/Embedded_C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="Embedded C++" />
-<img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino" />
-<img src="https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP32" />
-<img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white" alt="Canva" />
-</p>
+</div>
+
+---
+
+## 🏆 &nbsp;Hackathon Wins
+
+<div align="center">
+
+<table>
+<tr>
+<td align="center" width="46%">
+<br/>
+
+![1st](https://img.shields.io/badge/-%F0%9F%A5%87%20%20FIRST%20PLACE-FFD700?style=for-the-badge&labelColor=1a1a2e)
+
+### 🛡️ SafeX
+**Clash of Cortex Hackathon**
+
+AI-powered women's safety platform with real-time threat detection, one-tap SOS alerts & live location tracking.
+
+`TypeScript` &nbsp; `Next.js` &nbsp; `Firebase`
+
+[![View Project](https://img.shields.io/badge/View%20Project-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AniruddhaMJois/safex)
+
+</td>
+<td width="4%"></td>
+<td align="center" width="46%">
+<br/>
+
+![2nd](https://img.shields.io/badge/-%F0%9F%A5%88%20%20SECOND%20PLACE-C0C0C0?style=for-the-badge&labelColor=1a1a2e)
+
+### 🔋 Battery Thermal Runaway ID
+**ThermoSpark Hackathon**
+
+Embedded IoT system on ESP32 with C++ firmware to detect & predict battery thermal runaway events in real time.
+
+`ESP32` &nbsp; `Embedded C++` &nbsp; `IoT`
+
+[![View Project](https://img.shields.io/badge/View%20Project-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AniruddhaMJois/battery-thermal-runaway-identifier)
+
+</td>
+</tr>
+</table>
 
 </div>
 
 ---
 
-## 🏆 &nbsp;Achievements & Hackathons
+## 🚀 &nbsp;Projects
 
-<div align="center">
+<details>
+<summary>&nbsp;<b>🛡️ SafeX</b> &nbsp;—&nbsp; Women's Safety Platform &nbsp;&nbsp;<img src="https://img.shields.io/badge/🥇 1st-Clash of Cortex-gold?style=flat-square" /></summary>
+<br/>
 
-| &nbsp; | 🏅 Event | 📋 Project | 📝 Description |
-|:---:|:---:|:---:|:---|
-| 🥇 **1st Prize** | **Clash of Cortex** | [**SafeX**](https://github.com/AniruddhaMJois/safex) | Women's safety platform with real-time threat detection and emergency response |
-| 🥈 **2nd Prize** | **ThermoSpark** | [**Battery Thermal Runaway Identifier**](https://github.com/AniruddhaMJois/battery-thermal-runaway-identifier) | IoT-based system to detect and predict battery thermal runaway conditions |
+> Real-time threat detection and emergency response platform built for women's safety.
 
-</div>
+| Field | Details |
+|:--|:--|
+| **Stack** | TypeScript · Next.js · Firebase |
+| **Status** | ✅ Live & Maintained |
+| **Won** | 🥇 1st Place — Clash of Cortex |
 
----
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AniruddhaMJois/safex)
 
-## 🚀 &nbsp;Featured Projects
+</details>
 
-<div align="center">
+<details>
+<summary>&nbsp;<b>🔋 Battery Thermal Runaway Identifier</b> &nbsp;—&nbsp; IoT Safety System &nbsp;&nbsp;<img src="https://img.shields.io/badge/🥈 2nd-ThermoSpark-silver?style=flat-square" /></summary>
+<br/>
 
-| Project | Description | Tech | Status |
-|:---|:---|:---:|:---:|
-| [**🛡️ SafeX**](https://github.com/AniruddhaMJois/safex) | Women's safety platform with real-time threat detection & emergency response | `TypeScript` | 🏆 1st — Clash of Cortex |
-| [**🔋 Battery Thermal Runaway Identifier**](https://github.com/AniruddhaMJois/battery-thermal-runaway-identifier) | IoT system for detecting & predicting battery thermal runaway | `CSS` `HTML` `JS` | 🏆 2nd — ThermoSpark |
-| [**🐘 TuskRes**](https://github.com/AniruddhaMJois/tuskres) | An innovative concept currently in ideation & development | `JavaScript` | 💡 In Development |
-| [**🤝 Gladiators NGO**](https://github.com/AniruddhaMJois/gladiators-ngo) | Platform to connect and empower NGO communities | `JavaScript` | 🔨 Actively Building |
+> ESP32-based embedded system to detect and predict battery thermal runaway conditions.
 
-</div>
+| Field | Details |
+|:--|:--|
+| **Stack** | ESP32 · Embedded C++ · IoT |
+| **Status** | ✅ Live & Maintained |
+| **Won** | 🥈 2nd Place — ThermoSpark |
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AniruddhaMJois/battery-thermal-runaway-identifier)
+
+</details>
+
+<details>
+<summary>&nbsp;<b>🤝 Gladiators NGO</b> &nbsp;—&nbsp; NGO Community Platform</summary>
+<br/>
+
+> A digital platform to connect, empower and coordinate NGO communities.
+
+| Field | Details |
+|:--|:--|
+| **Stack** | JavaScript · HTML · CSS |
+| **Status** | 🔨 Actively Building |
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AniruddhaMJois/gladiators-ngo)
+
+</details>
+
+<details>
+<summary>&nbsp;<b>🐘 TuskRes</b> &nbsp;—&nbsp; Concept in Development</summary>
+<br/>
+
+> An innovative concept currently in ideation and early development phase.
+
+| Field | Details |
+|:--|:--|
+| **Stack** | JavaScript |
+| **Status** | 💡 Ideation Phase |
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AniruddhaMJois/tuskres)
+
+</details>
 
 ---
 
@@ -158,25 +252,7 @@ fun_fact: "I turn hackathon ideas into real-world solutions 🚀"
 
 </div>
 
----
 
-## 🔭 &nbsp;Currently Working On
-
-<div align="center">
-
-```
-🔭 Active Projects
-├── 🤝 Gladiators NGO         → Building platform for NGO communities
-├── 🐘 TuskRes                → Ideation & Development phase
-├── 🛡️ SafeX                  → Maintaining & improving the platform
-└── 🔋 Thermal Runaway ID     → Enhancing IoT detection capabilities
-
-🌱 Currently Learning
-├── ⚛️  React                  → Frontend framework
-└── ▲  Vercel                 → Deployment & hosting
-```
-
-</div>
 
 ---
 
