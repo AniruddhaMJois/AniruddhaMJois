@@ -34,20 +34,7 @@
 ## 🚧 &nbsp;What I'm Building
 
 <div align="center">
-
-```
-╔══════════════════════════════════════════════════════════════════════╗
-║                   ACTIVE DEVELOPMENT BOARD                          ║
-╠══════════════════════════════════════════════════════════════════════╣
-║  🤝  Gladiators NGO    ▓▓▓▓▓▓▓░░░  70%  │ In Progress │ Web App    ║
-║  🐘  TuskRes           ▓▓▓░░░░░░░  30%  │ Ideation    │ Concept    ║
-║  🛡️   SafeX             ▓▓▓▓▓▓▓▓▓▓ 100%  │ Maintained  │ Full Stack ║
-║  🔋  Thermal Runaway   ▓▓▓▓▓▓▓▓▓▓ 100%  │ Maintained  │ ESP32·C++ ║
-╠══════════════════════════════════════════════════════════════════════╣
-║  🌱  Learning :  React  ·  Vercel Deployments  ·  Advanced IoT      ║
-╚══════════════════════════════════════════════════════════════════════╝
-```
-
+  <img src="https://raw.githubusercontent.com/AniruddhaMJois/AniruddhaMJois/main/building-card.svg" alt="Active Development Board" width="100%" />
 </div>
 
 ---

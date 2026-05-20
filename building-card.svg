@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 440" width="820" height="440">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/><stop offset="100%" stop-color="#161b28"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6C63FF"/><stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+    <linearGradient id="amb" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F59E0B"/><stop offset="100%" stop-color="#FCD34D"/>
+    </linearGradient>
+    <linearGradient id="blu" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6"/><stop offset="100%" stop-color="#93C5FD"/>
+    </linearGradient>
+    <linearGradient id="grn" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981"/><stop offset="100%" stop-color="#6EE7B7"/>
+    </linearGradient>
+    <filter id="gl"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+
+  <!-- Card -->
+  <rect width="820" height="440" rx="18" fill="url(#bg)" stroke="#30363d" stroke-width="1.5"/>
+  <rect width="820" height="4" rx="2" fill="url(#acc)"/>
+  <rect x="0" y="4" width="4" height="432" rx="2" fill="url(#acc)"/>
+
+  <!-- BG glow -->
+  <circle cx="760" cy="90" r="130" fill="#6C63FF" opacity="0.04"/>
+  <circle cx="60" cy="390" r="90" fill="#A78BFA" opacity="0.04"/>
+
+  <!-- Corner dots -->
+  <circle cx="746" cy="28" r="4" fill="#6C63FF" opacity="0.7" filter="url(#gl)"/>
+  <circle cx="762" cy="28" r="4" fill="#8B5CF6" opacity="0.7" filter="url(#gl)"/>
+  <circle cx="778" cy="28" r="4" fill="#A78BFA" opacity="0.7" filter="url(#gl)"/>
+
+  <!-- Title -->
+  <text x="38" y="52" font-family="Segoe UI, system-ui, sans-serif" font-size="22" font-weight="700" fill="#ffffff">🚧  Active Development Board</text>
+  <line x1="38" y1="70" x2="782" y2="70" stroke="#21262d" stroke-width="1.5"/>
+
+  <!-- === CARD 1: Gladiators NGO (amber / in progress) === -->
+  <rect x="20" y="80" width="780" height="70" rx="10" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+  <rect x="20" y="80" width="4" height="70" rx="2" fill="#F59E0B"/>
+  <text x="42" y="108" font-family="Segoe UI, system-ui, sans-serif" font-size="15" font-weight="600" fill="#ffffff">🤝  Gladiators NGO</text>
+  <rect x="42" y="115" width="128" height="18" rx="9" fill="#F59E0B" fill-opacity="0.12" stroke="#F59E0B" stroke-opacity="0.3" stroke-width="1"/>
+  <text x="50" y="128" font-family="Segoe UI, system-ui, sans-serif" font-size="10" fill="#FBBF24">Web App  ·  JavaScript</text>
+  <rect x="215" y="101" width="375" height="10" rx="5" fill="#21262d"/>
+  <rect x="215" y="101" width="262" height="10" rx="5" fill="url(#amb)"/>
+  <text x="604" y="111" font-family="Segoe UI, system-ui, sans-serif" font-size="11" fill="#FBBF24" text-anchor="end">70%</text>
+  <rect x="618" y="89" width="164" height="22" rx="11" fill="#F59E0B" fill-opacity="0.15" stroke="#F59E0B" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="700" y="104" font-family="Segoe UI, system-ui, sans-serif" font-size="11" fill="#FBBF24" text-anchor="middle" font-weight="600">🔨  In Progress</text>
+
+  <!-- === CARD 2: TuskRes (blue / ideation) === -->
+  <rect x="20" y="162" width="780" height="70" rx="10" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+  <rect x="20" y="162" width="4" height="70" rx="2" fill="#3B82F6"/>
+  <text x="42" y="190" font-family="Segoe UI, system-ui, sans-serif" font-size="15" font-weight="600" fill="#ffffff">🐘  TuskRes</text>
+  <rect x="42" y="197" width="128" height="18" rx="9" fill="#3B82F6" fill-opacity="0.12" stroke="#3B82F6" stroke-opacity="0.3" stroke-width="1"/>
+  <text x="50" y="210" font-family="Segoe UI, system-ui, sans-serif" font-size="10" fill="#60A5FA">Concept  ·  JavaScript</text>
+  <rect x="215" y="183" width="375" height="10" rx="5" fill="#21262d"/>
+  <rect x="215" y="183" width="112" height="10" rx="5" fill="url(#blu)"/>
+  <text x="604" y="193" font-family="Segoe UI, system-ui, sans-serif" font-size="11" fill="#60A5FA" text-anchor="end">30%</text>
+  <rect x="618" y="171" width="164" height="22" rx="11" fill="#3B82F6" fill-opacity="0.15" stroke="#3B82F6" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="700" y="186" font-family="Segoe UI, system-ui, sans-serif" font-size="11" fill="#93C5FD" text-anchor="middle" font-weight="600">💡  Ideation</text>
+
+  <!-- === CARD 3: SafeX (green / live) === -->
+  <rect x="20" y="244" width="780" height="70" rx="10" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+  <rect x="20" y="244" width="4" height="70" rx="2" fill="#10B981"/>
+  <text x="42" y="272" font-family="Segoe UI, system-ui, sans-serif" font-size="15" font-weight="600" fill="#ffffff">🛡️  SafeX</text>
+  <rect x="42" y="279" width="148" height="18" rx="9" fill="#10B981" fill-opacity="0.12" stroke="#10B981" stroke-opacity="0.3" stroke-width="1"/>
+  <text x="50" y="292" font-family="Segoe UI, system-ui, sans-serif" font-size="10" fill="#34D399">Full Stack  ·  TypeScript</text>
+  <rect x="215" y="265" width="375" height="10" rx="5" fill="#21262d"/>
+  <rect x="215" y="265" width="375" height="10" rx="5" fill="url(#grn)"/>
+  <text x="604" y="275" font-family="Segoe UI, system-ui, sans-serif" font-size="11" fill="#34D399" text-anchor="end">100%</text>
+  <rect x="618" y="253" width="164" height="22" rx="11" fill="#10B981" fill-opacity="0.15" stroke="#10B981" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="700" y="268" font-family="Segoe UI, system-ui, sans-serif" font-size="11" fill="#34D399" text-anchor="middle" font-weight="600">✅  Live</text>
+
+  <!-- === CARD 4: Thermal Runaway (green / live) === -->
+  <rect x="20" y="326" width="780" height="70" rx="10" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+  <rect x="20" y="326" width="4" height="70" rx="2" fill="#10B981"/>
+  <text x="42" y="354" font-family="Segoe UI, system-ui, sans-serif" font-size="15" font-weight="600" fill="#ffffff">🔋  Battery Thermal Runaway ID</text>
+  <rect x="42" y="361" width="148" height="18" rx="9" fill="#10B981" fill-opacity="0.12" stroke="#10B981" stroke-opacity="0.3" stroke-width="1"/>
+  <text x="50" y="374" font-family="Segoe UI, system-ui, sans-serif" font-size="10" fill="#34D399">IoT  ·  ESP32  ·  Embedded C++</text>
+  <rect x="215" y="347" width="375" height="10" rx="5" fill="#21262d"/>
+  <rect x="215" y="347" width="375" height="10" rx="5" fill="url(#grn)"/>
+  <text x="604" y="357" font-family="Segoe UI, system-ui, sans-serif" font-size="11" fill="#34D399" text-anchor="end">100%</text>
+  <rect x="618" y="335" width="164" height="22" rx="11" fill="#10B981" fill-opacity="0.15" stroke="#10B981" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="700" y="350" font-family="Segoe UI, system-ui, sans-serif" font-size="11" fill="#34D399" text-anchor="middle" font-weight="600">✅  Live</text>
+
+  <!-- Learning row -->
+  <line x1="38" y1="408" x2="782" y2="408" stroke="#21262d" stroke-width="1"/>
+  <text x="38" y="428" font-family="Segoe UI, system-ui, sans-serif" font-size="12" fill="#8b949e">🌱  Currently Learning :</text>
+  <rect x="198" y="414" width="72" height="20" rx="10" fill="#6C63FF" fill-opacity="0.15" stroke="#6C63FF" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="234" y="428" font-family="Segoe UI, system-ui, sans-serif" font-size="11" fill="#A78BFA" text-anchor="middle">⚛️ React</text>
+  <rect x="280" y="414" width="72" height="20" rx="10" fill="#6C63FF" fill-opacity="0.15" stroke="#6C63FF" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="316" y="428" font-family="Segoe UI, system-ui, sans-serif" font-size="11" fill="#A78BFA" text-anchor="middle">▲ Vercel</text>
+  <rect x="362" y="414" width="110" height="20" rx="10" fill="#6C63FF" fill-opacity="0.15" stroke="#6C63FF" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="417" y="428" font-family="Segoe UI, system-ui, sans-serif" font-size="11" fill="#A78BFA" text-anchor="middle">📡 Advanced IoT</text>
+</svg>
