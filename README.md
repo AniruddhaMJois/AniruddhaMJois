@@ -26,20 +26,7 @@
 ## 🧑‍💻 &nbsp;About Me
 
 <div align="center">
-
-```yaml
-name      : "Aniruddha M Jois"
-role      : "Full Stack Developer  ·  IoT Enthusiast  ·  Embedded Systems"
-location  : "India 🇮🇳"
-education : "Vidya Vardhaka College of Engineering"
-interests : ["Web Dev", "Embedded Systems", "IoT", "Hackathons"]
-currently : "Building Gladiators NGO Platform"
-learning  : ["React", "Vercel", "Advanced IoT"]
-open_to   : "Collaborations & Hackathons 🤝"
-```
-
-> 💡 *"Turning hackathon ideas into production‑ready products — one commit at a time."*
-
+  <img src="https://raw.githubusercontent.com/AniruddhaMJois/AniruddhaMJois/main/about-card.svg" alt="About Aniruddha M Jois" width="100%" />
 </div>
 
 ---
