@@ -1,0 +1,21 @@
+name: GitHub-Profile-Summary-Cards
+
+on:
+  schedule:
+    - cron: "0 * * * *" # Runs every hour automatically
+  workflow_dispatch: # Allows you to run it manually!
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate-github-cards
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          # This requires a Personal Access Token added to your repository secrets
+          GITHUB_TOKEN: ${{ secrets.SUMMARY_CARDS_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
