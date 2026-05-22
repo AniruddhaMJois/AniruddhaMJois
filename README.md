@@ -158,6 +158,21 @@ Embedded IoT system on ESP32 with C++ firmware to detect & predict battery therm
 </details>
 
 <details>
+<summary>&nbsp;<b>🚀 FestFlow</b> &nbsp;—&nbsp; Event Management & Safety Dashboard</summary>
+<br/>
+
+> Real-time IoT Dashboard for large-scale event management, vital telemetry, and safety monitoring.
+
+| Field | Details |
+|:--|:--|
+| **Stack** | HTML5 · CSS3 · JavaScript · WebSerial · Leaflet.js |
+| **Status** | ✅ Live & Maintained |
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AniruddhaMJois/festflow)
+
+</details>
+
+<details>
 <summary>&nbsp;<b>🤝 Gladiators NGO</b> &nbsp;—&nbsp; NGO Community Platform</summary>
 <br/>
 
@@ -165,7 +180,7 @@ Embedded IoT system on ESP32 with C++ firmware to detect & predict battery therm
 
 | Field | Details |
 |:--|:--|
-| **Stack** | JavaScript · HTML · CSS |
+| **Stack** | React · JavaScript · Vite · CSS |
 | **Status** | 🔨 Actively Building |
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AniruddhaMJois/gladiators-ngo)
@@ -243,6 +258,7 @@ Embedded IoT system on ESP32 with C++ firmware to detect & predict battery therm
 2. 💡 Ideating on **TuskRes** — exploring innovative solutions
 3. 🛡️ Maintaining **SafeX** — women's safety platform
 4. 🔋 Iterating on **Battery Thermal Runaway Identifier**
+5. 🚀 Maintained **FestFlow** — real-time IoT event dashboard
 <!--END_SECTION:activity-->
 
 ---
