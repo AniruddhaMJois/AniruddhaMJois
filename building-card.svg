@@ -61,9 +61,9 @@
   <rect x="44" y="116" width="132" height="20" rx="10" fill="#F59E0B" fill-opacity="0.12" stroke="#F59E0B" stroke-opacity="0.3" stroke-width="1"/>
   <text x="52" y="130" font-family="Segoe UI, system-ui, sans-serif" font-size="10" fill="#FBBF24">React  ·  Vite  ·  CSS</text>
   <!-- Progress bar -->
-  <rect x="215" y="142" width="390" height="11" rx="5.5" fill="#21262d"/>
-  <rect x="215" y="142" width="273" height="11" rx="5.5" fill="url(#amb)"/>
-  <text x="616" y="152" font-family="Segoe UI, system-ui, sans-serif" font-size="11" fill="#FBBF24" text-anchor="end" font-weight="600">70%</text>
+  <rect x="215" y="137" width="390" height="22" rx="11" fill="#21262d"/>
+  <rect x="215" y="137" width="273" height="22" rx="11" fill="url(#amb)"/>
+  <text x="616" y="153" font-family="Segoe UI, system-ui, sans-serif" font-size="13" fill="#FBBF24" text-anchor="end" font-weight="600">70%</text>
   <!-- Status pill -->
   <rect x="630" y="94" width="152" height="26" rx="13" fill="#F59E0B" fill-opacity="0.15" stroke="#F59E0B" stroke-opacity="0.4" stroke-width="1"/>
   <text x="706" y="111" font-family="Segoe UI, system-ui, sans-serif" font-size="12" fill="#FBBF24" text-anchor="middle" font-weight="600">🔨  In Progress</text>
@@ -74,9 +74,9 @@
   <text x="44" y="208" font-family="Segoe UI, system-ui, sans-serif" font-size="15" font-weight="600" fill="#ffffff">🐘  TuskRes</text>
   <rect x="44" y="216" width="132" height="20" rx="10" fill="#3B82F6" fill-opacity="0.12" stroke="#3B82F6" stroke-opacity="0.3" stroke-width="1"/>
   <text x="52" y="230" font-family="Segoe UI, system-ui, sans-serif" font-size="10" fill="#60A5FA">Concept  ·  JavaScript</text>
-  <rect x="215" y="242" width="390" height="11" rx="5.5" fill="#21262d"/>
-  <rect x="215" y="242" width="117" height="11" rx="5.5" fill="url(#blu)"/>
-  <text x="616" y="252" font-family="Segoe UI, system-ui, sans-serif" font-size="11" fill="#60A5FA" text-anchor="end" font-weight="600">30%</text>
+  <rect x="215" y="237" width="390" height="22" rx="11" fill="#21262d"/>
+  <rect x="215" y="237" width="117" height="22" rx="11" fill="url(#blu)"/>
+  <text x="616" y="253" font-family="Segoe UI, system-ui, sans-serif" font-size="13" fill="#60A5FA" text-anchor="end" font-weight="600">30%</text>
   <rect x="630" y="194" width="152" height="26" rx="13" fill="#3B82F6" fill-opacity="0.15" stroke="#3B82F6" stroke-opacity="0.4" stroke-width="1"/>
   <text x="706" y="211" font-family="Segoe UI, system-ui, sans-serif" font-size="12" fill="#93C5FD" text-anchor="middle" font-weight="600">💡  Ideation</text>
 
@@ -86,9 +86,9 @@
   <text x="44" y="308" font-family="Segoe UI, system-ui, sans-serif" font-size="15" font-weight="600" fill="#ffffff">🛡️  SafeX</text>
   <rect x="44" y="316" width="152" height="20" rx="10" fill="#10B981" fill-opacity="0.12" stroke="#10B981" stroke-opacity="0.3" stroke-width="1"/>
   <text x="52" y="330" font-family="Segoe UI, system-ui, sans-serif" font-size="10" fill="#34D399">Full Stack  ·  TypeScript</text>
-  <rect x="215" y="342" width="390" height="11" rx="5.5" fill="#21262d"/>
-  <rect x="215" y="342" width="390" height="11" rx="5.5" fill="url(#grn)"/>
-  <text x="616" y="352" font-family="Segoe UI, system-ui, sans-serif" font-size="11" fill="#34D399" text-anchor="end" font-weight="600">100%</text>
+  <rect x="215" y="337" width="390" height="22" rx="11" fill="#21262d"/>
+  <rect x="215" y="337" width="390" height="22" rx="11" fill="url(#grn)"/>
+  <text x="616" y="353" font-family="Segoe UI, system-ui, sans-serif" font-size="13" fill="#34D399" text-anchor="end" font-weight="600">100%</text>
   <rect x="630" y="294" width="152" height="26" rx="13" fill="#10B981" fill-opacity="0.15" stroke="#10B981" stroke-opacity="0.4" stroke-width="1"/>
   <text x="706" y="311" font-family="Segoe UI, system-ui, sans-serif" font-size="12" fill="#34D399" text-anchor="middle" font-weight="600">✅  Live</text>
 
@@ -98,9 +98,9 @@
   <text x="44" y="408" font-family="Segoe UI, system-ui, sans-serif" font-size="15" font-weight="600" fill="#ffffff">🔋  Battery Thermal Runaway ID</text>
   <rect x="44" y="416" width="186" height="20" rx="10" fill="#10B981" fill-opacity="0.12" stroke="#10B981" stroke-opacity="0.3" stroke-width="1"/>
   <text x="52" y="430" font-family="Segoe UI, system-ui, sans-serif" font-size="10" fill="#34D399">IoT  ·  ESP32  ·  Embedded C++</text>
-  <rect x="215" y="442" width="390" height="11" rx="5.5" fill="#21262d"/>
-  <rect x="215" y="442" width="390" height="11" rx="5.5" fill="url(#grn)"/>
-  <text x="616" y="452" font-family="Segoe UI, system-ui, sans-serif" font-size="11" fill="#34D399" text-anchor="end" font-weight="600">100%</text>
+  <rect x="215" y="437" width="390" height="22" rx="11" fill="#21262d"/>
+  <rect x="215" y="437" width="390" height="22" rx="11" fill="url(#grn)"/>
+  <text x="616" y="453" font-family="Segoe UI, system-ui, sans-serif" font-size="13" fill="#34D399" text-anchor="end" font-weight="600">100%</text>
   <rect x="630" y="394" width="152" height="26" rx="13" fill="#10B981" fill-opacity="0.15" stroke="#10B981" stroke-opacity="0.4" stroke-width="1"/>
   <text x="706" y="411" font-family="Segoe UI, system-ui, sans-serif" font-size="12" fill="#34D399" text-anchor="middle" font-weight="600">✅  Live</text>
 
@@ -113,9 +113,9 @@
   <rect x="44" y="516" width="186" height="20" rx="10" fill="#10B981" fill-opacity="0.12" stroke="#10B981" stroke-opacity="0.3" stroke-width="1"/>
   <text x="52" y="530" font-family="Segoe UI, system-ui, sans-serif" font-size="10" fill="#34D399">IoT  ·  WebSerial  ·  Leaflet.js</text>
   <!-- Progress bar -->
-  <rect x="215" y="542" width="390" height="11" rx="5.5" fill="#21262d"/>
-  <rect x="215" y="542" width="390" height="11" rx="5.5" fill="url(#grn)"/>
-  <text x="616" y="552" font-family="Segoe UI, system-ui, sans-serif" font-size="11" fill="#34D399" text-anchor="end" font-weight="600">100%</text>
+  <rect x="215" y="537" width="390" height="22" rx="11" fill="#21262d"/>
+  <rect x="215" y="537" width="390" height="22" rx="11" fill="url(#grn)"/>
+  <text x="616" y="553" font-family="Segoe UI, system-ui, sans-serif" font-size="13" fill="#34D399" text-anchor="end" font-weight="600">100%</text>
   <!-- Status pill -->
   <rect x="630" y="494" width="152" height="26" rx="13" fill="#10B981" fill-opacity="0.15" stroke="#10B981" stroke-opacity="0.4" stroke-width="1"/>
   <text x="706" y="511" font-family="Segoe UI, system-ui, sans-serif" font-size="12" fill="#34D399" text-anchor="middle" font-weight="600">✅  Live</text>
