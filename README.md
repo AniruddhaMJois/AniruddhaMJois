@@ -26,7 +26,7 @@
 ## 🧑‍💻 &nbsp;About Me
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AniruddhaMJois/AniruddhaMJois/main/about-card.svg" alt="About Aniruddha M Jois" width="100%" />
+  <img src="about-card.svg" alt="About Aniruddha M Jois" width="100%" />
 </div>
 
 ---
@@ -34,7 +34,7 @@
 ## 🚧 &nbsp;What I'm Building
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AniruddhaMJois/AniruddhaMJois/main/building-card.svg" alt="Active Development Board" width="100%" />
+  <img src="building-card.svg" alt="Active Development Board" width="100%" />
 </div>
 
 ---
