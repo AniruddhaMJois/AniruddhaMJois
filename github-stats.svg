@@ -123,7 +123,7 @@
         <g class="rank-text">
           <text
             x="0"
-            y="-8"
+            y="0"
             alignment-baseline="central"
             dominant-baseline="central"
             text-anchor="middle"
@@ -131,9 +131,9 @@
             A+
           </text>
           <text
-            x="0"
-            y="18"
-            style="font: 700 12px 'Inter', Ubuntu, Sans-Serif; fill: #38bdae;"
+            x="-160"
+            y="0"
+            style="font: 800 24px 'Inter', Ubuntu, Sans-Serif; fill: #38bdae;"
             alignment-baseline="central"
             dominant-baseline="central"
             text-anchor="middle"

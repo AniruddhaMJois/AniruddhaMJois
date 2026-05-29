@@ -34,11 +34,11 @@ def main():
         re.MULTILINE
     )
     
-    replacement = r'''\g<1>-8\g<2>
+    replacement = r'''\g<1>0\g<2>
           <text
-            x="0"
-            y="18"
-            style="font: 700 12px 'Inter', Ubuntu, Sans-Serif; fill: #38bdae;"
+            x="-160"
+            y="0"
+            style="font: 800 24px 'Inter', Ubuntu, Sans-Serif; fill: #38bdae;"
             alignment-baseline="central"
             dominant-baseline="central"
             text-anchor="middle"
