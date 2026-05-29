@@ -209,13 +209,8 @@ Embedded IoT system on ESP32 with C++ firmware to detect & predict battery therm
 <div align="center">
 
 <!-- GitHub Stats & Streak Stats -->
-<img width="49%" src="https://github-readme-stats-eight-theta.vercel.app/api?username=AniruddhaMJois&show_icons=true&theme=tokyonight&hide_border=true&border_radius=15&include_all_commits=true" alt="GitHub Stats" />
+<img width="49%" src="https://github-readme-stats-eight-theta.vercel.app/api?username=AniruddhaMJois&show_icons=true&theme=tokyonight&hide_border=true&border_radius=15&include_all_commits=true&hide_rank=true" alt="GitHub Stats" />
 <img width="49%" src="https://streak-stats.demolab.com/?user=AniruddhaMJois&theme=tokyonight&hide_border=true&border_radius=15" alt="GitHub Streak" />
-
-<br/><br/>
-
-<!-- Real-Time Total Commits Card -->
-<img src="https://github-readme-stats-eight-theta.vercel.app/api?username=AniruddhaMJois&show_icons=true&theme=tokyonight&hide_border=true&border_radius=15&include_all_commits=true&hide=stars,issues,prs,contribs&custom_title=Total%20Commits%20(Real-Time)" alt="Total Commits" />
 
 <br/><br/>
 
