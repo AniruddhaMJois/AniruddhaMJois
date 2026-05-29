@@ -1,5 +1,6 @@
 import urllib.request
 import re
+import sys
 
 URL = "https://github-readme-stats-eight-theta.vercel.app/api?username=AniruddhaMJois&show_icons=true&theme=tokyonight&hide_border=true&border_radius=15&include_all_commits=true"
 OUTPUT_FILE = "github-stats.svg"
@@ -7,20 +8,29 @@ OUTPUT_FILE = "github-stats.svg"
 def main():
     print("Fetching SVG from", URL)
     req = urllib.request.Request(URL, headers={'User-Agent': 'Mozilla/5.0'})
-    with urllib.request.urlopen(req) as response:
-        svg = response.read().decode('utf-8')
+    try:
+        with urllib.request.urlopen(req) as response:
+            svg = response.read().decode('utf-8')
+    except Exception as e:
+        print("Error fetching URL:", e)
+        sys.exit(1)
     
-    # 1. Extract total commits
     commits_match = re.search(r'data-testid="commits"\s*>(\d+)</text>', svg)
     if not commits_match:
         print("Could not find total commits in SVG!")
-        return
+        sys.exit(1)
     
     total_commits = commits_match.group(1)
     print("Found total commits:", total_commits)
     
-    # 2. Replace the entire stats list with our custom creative commits design
-    # The stats are contained inside <svg x="0" y="0"> ... </svg> right before the end of main-card-body
+    # Split the SVG exactly at the start of the stats block
+    split_marker = '<svg x="0" y="0">'
+    if split_marker not in svg:
+        print("Could not find split marker!")
+        sys.exit(1)
+        
+    parts = svg.split(split_marker)
+    top_part = parts[0]
     
     creative_commits_svg = f'''<svg x="0" y="0">
       <g transform="translate(180, 50)">
@@ -40,14 +50,15 @@ def main():
           TOTAL COMMITS
         </text>
       </g>
-    </svg>'''
+    </svg>
+        </g>
+      </svg>
+'''
     
-    # Replace the <svg x="0" y="0"> block
-    # We use regex to find <svg x="0" y="0"> and the matching closing </svg>
-    svg = re.sub(r'<svg x="0" y="0">.*?</svg>', creative_commits_svg, svg, flags=re.DOTALL)
+    final_svg = top_part + creative_commits_svg
     
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        f.write(svg)
+        f.write(final_svg)
     
     print(f"Saved modified SVG to {OUTPUT_FILE}")
 
