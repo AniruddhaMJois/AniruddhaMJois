@@ -209,7 +209,7 @@ Embedded IoT system on ESP32 with C++ firmware to detect & predict battery therm
 <div align="center">
 
 <!-- Streak Stats (Total Contributions & Current Streak only) -->
-<img width="80%" src="https://streak-stats.demolab.com/?user=AniruddhaMJois&theme=tokyonight&hide_border=true&border_radius=15&hide_longest_streak=true&v=3" alt="GitHub Streak" />
+<img width="80%" src="streak.svg" alt="GitHub Streak" />
 
 <br/><br/>
 
