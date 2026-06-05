@@ -2,7 +2,7 @@ import urllib.request
 import re
 import sys
 
-URL = "https://github-readme-stats-eight-theta.vercel.app/api?username=AniruddhaMJois&show_icons=true&theme=tokyonight&hide_border=true&border_radius=15&include_all_commits=true"
+URL = "https://github-readme-stats-eight-theta.vercel.app/api?username=AniruddhaMJois&show_icons=true&theme=tokyonight&hide_border=true&border_radius=15&include_all_commits=true&hide_rank=true"
 OUTPUT_FILE = "github-stats.svg"
 
 def main():
@@ -34,20 +34,22 @@ def main():
     
     creative_commits_svg = f'''<svg x="0" y="0">
       <g transform="translate(180, 50)">
-        <!-- Animated Background Glow -->
-        <circle cx="0" cy="0" r="50" fill="#bf91f3" opacity="0.15">
-          <animate attributeName="r" values="50;65;50" dur="3s" repeatCount="indefinite" />
-          <animate attributeName="opacity" values="0.15;0.3;0.15" dur="3s" repeatCount="indefinite" />
+        <!-- Professional Subtle Ring Animation -->
+        <circle cx="0" cy="0" r="46" fill="none" stroke="#70a5fd" stroke-width="2" stroke-dasharray="289" stroke-dashoffset="289">
+          <animate attributeName="stroke-dashoffset" values="289;0" dur="1.5s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1" />
         </circle>
         
-        <!-- Big Number -->
-        <text x="0" y="-10" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" style="font: 800 52px 'Inter', Ubuntu, Sans-Serif; fill: #70a5fd; text-shadow: 0px 4px 10px rgba(112, 165, 253, 0.4);">
+        <!-- Animated Number -->
+        <text x="0" y="-10" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" style="font: 800 48px 'Inter', Ubuntu, Sans-Serif; fill: #70a5fd; opacity: 0;">
           {total_commits}
+          <animate attributeName="opacity" values="0;1" dur="1s" begin="0.5s" fill="freeze" />
+          <animateTransform attributeName="transform" type="translate" values="0,10; 0,0" dur="1s" begin="0.5s" fill="freeze" calcMode="spline" keySplines="0.1 0.8 0.2 1"/>
         </text>
         
         <!-- Label -->
-        <text x="0" y="35" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" style="font: 600 14px 'Inter', Ubuntu, Sans-Serif; fill: #38bdae; letter-spacing: 2px;">
+        <text x="0" y="32" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" style="font: 600 13px 'Inter', Ubuntu, Sans-Serif; fill: #a9b1d6; letter-spacing: 2px; opacity: 0;">
           TOTAL COMMITS
+          <animate attributeName="opacity" values="0;1" dur="1s" begin="0.8s" fill="freeze" />
         </text>
       </g>
     </svg>

@@ -54,7 +54,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 121.64126671306562;
+        stroke-dashoffset: 121.6091689393372;
       }
     }
   
@@ -116,39 +116,26 @@
           transform="translate(0, 55)"
         >
           
-    <g data-testid="rank-circle" 
-          transform="translate(400, 47.5)">
-        <circle class="rank-circle-rim" cx="-10" cy="8" r="40" />
-        <circle class="rank-circle" cx="-10" cy="8" r="40" />
-        <g class="rank-text">
-          <text
-            x="0"
-            y="0"
-            alignment-baseline="central"
-            dominant-baseline="central"
-            text-anchor="middle"
-          >
-            A+
-          </text>
-        </g>
-      </g>
+    
 
     <svg x="0" y="0">
       <g transform="translate(180, 50)">
-        <!-- Animated Background Glow -->
-        <circle cx="0" cy="0" r="50" fill="#bf91f3" opacity="0.15">
-          <animate attributeName="r" values="50;65;50" dur="3s" repeatCount="indefinite" />
-          <animate attributeName="opacity" values="0.15;0.3;0.15" dur="3s" repeatCount="indefinite" />
+        <!-- Professional Subtle Ring Animation -->
+        <circle cx="0" cy="0" r="46" fill="none" stroke="#70a5fd" stroke-width="2" stroke-dasharray="289" stroke-dashoffset="289">
+          <animate attributeName="stroke-dashoffset" values="289;0" dur="1.5s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1" />
         </circle>
         
-        <!-- Big Number -->
-        <text x="0" y="-10" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" style="font: 800 52px 'Inter', Ubuntu, Sans-Serif; fill: #70a5fd; text-shadow: 0px 4px 10px rgba(112, 165, 253, 0.4);">
-          820
+        <!-- Animated Number -->
+        <text x="0" y="-10" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" style="font: 800 48px 'Inter', Ubuntu, Sans-Serif; fill: #70a5fd; opacity: 0;">
+          824
+          <animate attributeName="opacity" values="0;1" dur="1s" begin="0.5s" fill="freeze" />
+          <animateTransform attributeName="transform" type="translate" values="0,10; 0,0" dur="1s" begin="0.5s" fill="freeze" calcMode="spline" keySplines="0.1 0.8 0.2 1"/>
         </text>
         
         <!-- Label -->
-        <text x="0" y="35" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" style="font: 600 14px 'Inter', Ubuntu, Sans-Serif; fill: #38bdae; letter-spacing: 2px;">
+        <text x="0" y="32" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" style="font: 600 13px 'Inter', Ubuntu, Sans-Serif; fill: #a9b1d6; letter-spacing: 2px; opacity: 0;">
           TOTAL COMMITS
+          <animate attributeName="opacity" values="0;1" dur="1s" begin="0.8s" fill="freeze" />
         </text>
       </g>
     </svg>
