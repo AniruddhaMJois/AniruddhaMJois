@@ -33,23 +33,32 @@ def main():
     top_part = parts[0]
     
     creative_commits_svg = f'''<svg x="0" y="0">
-      <g transform="translate(180, 50)">
-        <!-- Professional Subtle Ring Animation -->
-        <circle cx="0" cy="0" r="46" fill="none" stroke="#70a5fd" stroke-width="2" stroke-dasharray="289" stroke-dashoffset="289">
-          <animate attributeName="stroke-dashoffset" values="289;0" dur="1.5s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1" />
+      <g transform="translate(247, 115)">
+        <!-- Subtle Background Glow -->
+        <circle cx="0" cy="-15" r="55" fill="#70a5fd" opacity="0.08">
+          <animate attributeName="opacity" values="0.05;0.12;0.05" dur="4s" repeatCount="indefinite" />
+          <animate attributeName="r" values="50;60;50" dur="4s" repeatCount="indefinite" />
         </circle>
         
         <!-- Animated Number -->
-        <text x="0" y="-10" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" style="font: 800 48px 'Inter', Ubuntu, Sans-Serif; fill: #70a5fd; opacity: 0;">
+        <text x="0" y="-15" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" style="font: 800 64px 'Inter', Ubuntu, Sans-Serif; fill: #70a5fd; opacity: 0;">
           {total_commits}
-          <animate attributeName="opacity" values="0;1" dur="1s" begin="0.5s" fill="freeze" />
-          <animateTransform attributeName="transform" type="translate" values="0,10; 0,0" dur="1s" begin="0.5s" fill="freeze" calcMode="spline" keySplines="0.1 0.8 0.2 1"/>
+          <animate attributeName="opacity" values="0;1" dur="1s" begin="0.3s" fill="freeze" />
+          <animateTransform attributeName="transform" type="translate" values="0,15; 0,0" dur="1s" begin="0.3s" fill="freeze" calcMode="spline" keySplines="0.1 0.8 0.2 1"/>
         </text>
         
+        <!-- Animated Divider Line -->
+        <rect x="-40" y="25" width="80" height="2" fill="#38bdae" opacity="0" rx="1">
+          <animate attributeName="opacity" values="0;1" dur="0.8s" begin="0.7s" fill="freeze" />
+          <animate attributeName="width" values="0;80" dur="0.8s" begin="0.7s" fill="freeze" calcMode="spline" keySplines="0.1 0.8 0.2 1" />
+          <animate attributeName="x" values="0;-40" dur="0.8s" begin="0.7s" fill="freeze" calcMode="spline" keySplines="0.1 0.8 0.2 1" />
+        </rect>
+        
         <!-- Label -->
-        <text x="0" y="32" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" style="font: 600 13px 'Inter', Ubuntu, Sans-Serif; fill: #a9b1d6; letter-spacing: 2px; opacity: 0;">
+        <text x="0" y="45" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" style="font: 600 13px 'Inter', Ubuntu, Sans-Serif; fill: #a9b1d6; letter-spacing: 3px; opacity: 0;">
           TOTAL COMMITS
-          <animate attributeName="opacity" values="0;1" dur="1s" begin="0.8s" fill="freeze" />
+          <animate attributeName="opacity" values="0;1" dur="1s" begin="0.9s" fill="freeze" />
+          <animateTransform attributeName="transform" type="translate" values="0,10; 0,0" dur="1s" begin="0.9s" fill="freeze" calcMode="spline" keySplines="0.1 0.8 0.2 1"/>
         </text>
       </g>
     </svg>
