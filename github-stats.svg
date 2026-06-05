@@ -119,12 +119,8 @@
     
 
     <svg x="0" y="0">
-      <g transform="translate(247, 115)">
-        <!-- Subtle Background Glow -->
-        <circle cx="0" cy="-15" r="55" fill="#70a5fd" opacity="0.08">
-          <animate attributeName="opacity" values="0.05;0.12;0.05" dur="4s" repeatCount="indefinite" />
-          <animate attributeName="r" values="50;60;50" dur="4s" repeatCount="indefinite" />
-        </circle>
+      <g transform="translate(247.5, 115)">
+
         
         <!-- Animated Number -->
         <text x="0" y="-15" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" style="font: 800 64px 'Inter', Ubuntu, Sans-Serif; fill: #70a5fd; opacity: 0;">
