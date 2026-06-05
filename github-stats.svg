@@ -54,7 +54,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 121.67336490036354;
+        stroke-dashoffset: 121.64126671306562;
       }
     }
   
@@ -143,7 +143,7 @@
         
         <!-- Big Number -->
         <text x="0" y="-10" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" style="font: 800 52px 'Inter', Ubuntu, Sans-Serif; fill: #70a5fd; text-shadow: 0px 4px 10px rgba(112, 165, 253, 0.4);">
-          816
+          820
         </text>
         
         <!-- Label -->
