@@ -33,7 +33,7 @@ def main():
     top_part = parts[0]
     
     creative_commits_svg = f'''<svg x="0" y="0">
-      <g transform="translate(247.5, 115)">
+      <g transform="translate(247.5, 70)">
 
         
         <!-- Animated Number -->
