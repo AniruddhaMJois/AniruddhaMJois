@@ -32,8 +32,8 @@ def main():
     parts = svg.split(split_marker)
     top_part = parts[0]
     
-    creative_commits_svg = f'''<svg x="0" y="0">
-      <g transform="translate(247.5, 70)">
+    creative_commits_svg = f'''<svg x="0" y="0" overflow="visible">
+      <g transform="translate(247.5, 30)">
 
         
         <!-- Animated Number -->

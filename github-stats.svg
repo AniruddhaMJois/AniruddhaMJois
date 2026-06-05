@@ -54,7 +54,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 121.60114456091031;
+        stroke-dashoffset: 121.6091689393372;
       }
     }
   
@@ -118,13 +118,13 @@
           
     
 
-    <svg x="0" y="0">
-      <g transform="translate(247.5, 70)">
+    <svg x="0" y="0" overflow="visible">
+      <g transform="translate(247.5, 30)">
 
         
         <!-- Animated Number -->
         <text x="0" y="-15" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" style="font: 800 64px 'Inter', Ubuntu, Sans-Serif; fill: #70a5fd; opacity: 0;">
-          825
+          824
           <animate attributeName="opacity" values="0;1" dur="1s" begin="0.3s" fill="freeze" />
           <animateTransform attributeName="transform" type="translate" values="0,15; 0,0" dur="1s" begin="0.3s" fill="freeze" calcMode="spline" keySplines="0.1 0.8 0.2 1"/>
         </text>
