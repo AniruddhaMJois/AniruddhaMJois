@@ -214,17 +214,7 @@ Embedded IoT system on ESP32 with C++ firmware to detect & predict battery therm
 
 <br/><br/>
 
-<!-- Profile Summary Chart (Full Width) -->
-<img width="98.5%" src="profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profile Details" />
 
-<br/><br/>
-
-<!-- Detailed Metrics -->
-<img width="32%" src="profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Repos per Language" />
-<img width="32%" src="profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Most Commit Language" />
-<img width="32%" src="profile-summary-card-output/tokyonight/3-stats.svg" alt="Stats" />
-
-<br/><br/>
 
 <!-- Activity Graph -->
 <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=AniruddhaMJois&theme=tokyo-night&hide_border=true&radius=15&area=true" alt="Contribution Graph" />
