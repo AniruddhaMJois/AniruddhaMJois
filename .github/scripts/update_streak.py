@@ -4,7 +4,7 @@ import sys
 
 import re
 
-URL_STREAK = "https://streak-stats.demolab.com/?user=AniruddhaMJois&theme=tokyonight&hide_border=true&border_radius=15&hide_longest_streak=true"
+URL_STREAK = "https://streak-stats.demolab.com/?user=AniruddhaMJois&theme=tokyonight&hide_border=true&border_radius=15&hide_longest_streak=true&timezone=Asia%2FKolkata"
 URL_COMMITS = "https://github-readme-stats-eight-theta.vercel.app/api?username=AniruddhaMJois&include_all_commits=true"
 OUTPUT_FILE = "streak.svg"
 
