@@ -7,17 +7,25 @@ import json
 import re
 
 URL_STREAK = "https://streak-stats.demolab.com/?user=AniruddhaMJois&theme=tokyonight&hide_border=true&border_radius=15&hide_longest_streak=true&timezone=Asia%2FKolkata"
-URL_COMMITS = "https://github-readme-stats.vercel.app/api?username=AniruddhaMJois&include_all_commits=true"
+URL_COMMITS = "https://github-readme-stats-eight-theta.vercel.app/api?username=AniruddhaMJois&include_all_commits=true"
 OUTPUT_FILE = "streak.svg"
 
 def get_total_commits():
     try:
         req = urllib.request.Request(URL_COMMITS, headers={'User-Agent': 'Mozilla/5.0'})
         res = urllib.request.urlopen(req).read().decode('utf-8')
-        # The exact unabbreviated number is always present in the accessibility <desc> tag
-        match = re.search(r'Total Commits\s*:\s*([0-9,]+)', res)
+        match = re.search(r'data-testid="commits"[^>]*>([^<]+)<', res)
         if match:
-            return match.group(1).strip(', ')
+            val = match.group(1).strip()
+            # Convert 'k' abbreviation to a normal number string
+            if val.lower().endswith('k'):
+                num_part = val[:-1]
+                try:
+                    num = int(float(num_part) * 1000)
+                    return f"{num:,}+"
+                except ValueError:
+                    return "1,000+"
+            return val
     except Exception as e:
         print(f"Stats API failed: {e}")
     return None
