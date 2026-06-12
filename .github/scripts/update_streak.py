@@ -7,28 +7,19 @@ import json
 import re
 
 URL_STREAK = "https://streak-stats.demolab.com/?user=AniruddhaMJois&theme=tokyonight&hide_border=true&border_radius=15&hide_longest_streak=true&timezone=Asia%2FKolkata"
-URL_COMMITS = "https://github-readme-stats-eight-theta.vercel.app/api?username=AniruddhaMJois&include_all_commits=true"
+URL_COMMITS = "https://github-readme-stats.vercel.app/api?username=AniruddhaMJois&include_all_commits=true"
 OUTPUT_FILE = "streak.svg"
 
 def get_total_commits():
     try:
-        # Fetch exact all-time contributions (commits, PRs, issues)
-        req = urllib.request.Request("https://github-contributions.vercel.app/api/v1/AniruddhaMJois", headers={'User-Agent': 'Mozilla/5.0'})
-        res = urllib.request.urlopen(req)
-        data = json.loads(res.read())
-        total = sum(year['total'] for year in data['years'])
-        return f"{total:,}"
-    except Exception as e:
-        print(f"Contributions API failed: {e}. Falling back to Vercel API.")
-
-    try:
         req = urllib.request.Request(URL_COMMITS, headers={'User-Agent': 'Mozilla/5.0'})
         res = urllib.request.urlopen(req).read().decode('utf-8')
-        match = re.search(r'data-testid="commits"[^>]*>([^<]+)<', res)
+        # The exact unabbreviated number is always present in the accessibility <desc> tag
+        match = re.search(r'Total Commits\s*:\s*([0-9,]+)', res)
         if match:
-            return match.group(1).strip()
-    except:
-        pass
+            return match.group(1).strip(', ')
+    except Exception as e:
+        print(f"Stats API failed: {e}")
     return None
 
 total_commits = get_total_commits()
