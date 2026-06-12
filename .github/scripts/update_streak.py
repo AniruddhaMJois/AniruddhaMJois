@@ -12,9 +12,9 @@ def get_total_commits():
     try:
         req = urllib.request.Request(URL_COMMITS, headers={'User-Agent': 'Mozilla/5.0'})
         res = urllib.request.urlopen(req).read().decode('utf-8')
-        match = re.search(r'data-testid="commits"[^>]*>([0-9,]+)<', res)
+        match = re.search(r'data-testid="commits"[^>]*>([^<]+)<', res)
         if match:
-            return match.group(1)
+            return match.group(1).strip()
     except:
         pass
     return None
