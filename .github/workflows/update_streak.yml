@@ -21,6 +21,8 @@ jobs:
           python-version: '3.x'
 
       - name: Run script to fetch streak SVG
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python .github/scripts/update_streak.py
 
       - name: Commit and push changes
