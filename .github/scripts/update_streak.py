@@ -11,49 +11,15 @@ URL_COMMITS = "https://github-readme-stats-eight-theta.vercel.app/api?username=A
 OUTPUT_FILE = "streak.svg"
 
 def get_total_commits():
-    token = os.environ.get("GH_TOKEN")
-    if token:
-        try:
-            # Get contribution years
-            query_years = """
-            query {
-              user(login: "AniruddhaMJois") {
-                contributionsCollection {
-                  contributionYears
-                }
-              }
-            }
-            """
-            req = urllib.request.Request("https://api.github.com/graphql", 
-                                         data=json.dumps({"query": query_years}).encode("utf-8"),
-                                         headers={"Authorization": f"Bearer {token}"})
-            res = urllib.request.urlopen(req)
-            years = json.loads(res.read())["data"]["user"]["contributionsCollection"]["contributionYears"]
-
-            total = 0
-            for year in years:
-                query_commits = f"""
-                query {{
-                  user(login: "AniruddhaMJois") {{
-                    contributionsCollection(from: "{year}-01-01T00:00:00Z", to: "{year}-12-31T23:59:59Z") {{
-                      totalCommitContributions
-                      restrictedContributionsCount
-                    }}
-                  }}
-                }}
-                """
-                req = urllib.request.Request("https://api.github.com/graphql", 
-                                             data=json.dumps({"query": query_commits}).encode("utf-8"),
-                                             headers={"Authorization": f"Bearer {token}"})
-                res = urllib.request.urlopen(req)
-                data = json.loads(res.read())["data"]["user"]["contributionsCollection"]
-                total += data["totalCommitContributions"]
-                total += data["restrictedContributionsCount"]
-            
-            # Format with commas for better readability (e.g., 1,024 instead of 1024)
-            return f"{total:,}"
-        except Exception as e:
-            print(f"GraphQL API failed: {e}. Falling back to Vercel API.")
+    try:
+        # Fetch exact all-time contributions (commits, PRs, issues)
+        req = urllib.request.Request("https://github-contributions.vercel.app/api/v1/AniruddhaMJois", headers={'User-Agent': 'Mozilla/5.0'})
+        res = urllib.request.urlopen(req)
+        data = json.loads(res.read())
+        total = sum(year['total'] for year in data['years'])
+        return f"{total:,}"
+    except Exception as e:
+        print(f"Contributions API failed: {e}. Falling back to Vercel API.")
 
     try:
         req = urllib.request.Request(URL_COMMITS, headers={'User-Agent': 'Mozilla/5.0'})
