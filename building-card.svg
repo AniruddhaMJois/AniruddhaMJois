@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 645" width="820" height="645">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 745" width="820" height="745">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0d1117"/><stop offset="100%" stop-color="#161b28"/>
@@ -19,9 +19,7 @@
   </defs>
 
   <!-- Main card -->
-  <rect width="820" height="645" rx="18" fill="url(#bg)" stroke="#30363d" stroke-width="1.5"/>
-  <rect width="820" height="4" rx="2" fill="url(#acc)"/>
-  <rect x="0" y="4" width="4" height="637" rx="2" fill="url(#acc)"/>
+  <rect width="820" height="745" rx="18" fill="url(#bg)" stroke="#30363d" stroke-width="1.5"/>
 
   <!-- BG glows -->
   <circle cx="760" cy="90" r="140" fill="#6C63FF" opacity="0.04"/>
@@ -120,13 +118,29 @@
   <rect x="630" y="494" width="152" height="26" rx="13" fill="#10B981" fill-opacity="0.15" stroke="#10B981" stroke-opacity="0.4" stroke-width="1"/>
   <text x="706" y="511" font-family="Segoe UI, system-ui, sans-serif" font-size="12" fill="#34D399" text-anchor="middle" font-weight="600">✅  Live</text>
 
+  <!-- === CARD 6: Karaneeyaani === -->
+  <rect x="20" y="582" width="780" height="88" rx="12" fill="#161b22" stroke="#21262d" stroke-width="1"/>
+  <rect x="20" y="582" width="5" height="88" rx="2.5" fill="#3B82F6"/>
+  <!-- Name -->
+  <text x="44" y="608" font-family="Segoe UI, system-ui, sans-serif" font-size="15" font-weight="600" fill="#ffffff">✅  Karaneeyaani</text>
+  <!-- Tech tag -->
+  <rect x="44" y="616" width="160" height="20" rx="10" fill="#3B82F6" fill-opacity="0.12" stroke="#3B82F6" stroke-opacity="0.3" stroke-width="1"/>
+  <text x="52" y="630" font-family="Segoe UI, system-ui, sans-serif" font-size="10" fill="#93C5FD">Flutter  ·  Dart  ·  Firebase</text>
+  <!-- Progress bar -->
+  <rect x="215" y="637" width="390" height="22" rx="11" fill="#21262d"/>
+  <rect x="215" y="637" width="390" height="22" rx="11" fill="url(#blu)"/>
+  <text x="616" y="653" font-family="Segoe UI, system-ui, sans-serif" font-size="13" fill="#93C5FD" text-anchor="end" font-weight="600">100%</text>
+  <!-- Status pill -->
+  <rect x="630" y="594" width="152" height="26" rx="13" fill="#10B981" fill-opacity="0.15" stroke="#10B981" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="706" y="611" font-family="Segoe UI, system-ui, sans-serif" font-size="12" fill="#34D399" text-anchor="middle" font-weight="600">✅  Live</text>
+
   <!-- Learning row -->
-  <line x1="38" y1="582" x2="782" y2="582" stroke="#21262d" stroke-width="1"/>
-  <text x="38" y="612" font-family="Segoe UI, system-ui, sans-serif" font-size="16" font-weight="600" fill="#8b949e">🌱  Currently Learning :</text>
-  <rect x="215" y="586" width="120" height="44" rx="22" fill="#6C63FF" fill-opacity="0.15" stroke="#6C63FF" stroke-opacity="0.4" stroke-width="1"/>
-  <text x="275" y="612" font-family="Segoe UI, system-ui, sans-serif" font-size="15" fill="#A78BFA" text-anchor="middle" font-weight="600">⚛️  React</text>
-  <rect x="345" y="586" width="120" height="44" rx="22" fill="#6C63FF" fill-opacity="0.15" stroke="#6C63FF" stroke-opacity="0.4" stroke-width="1"/>
-  <text x="405" y="612" font-family="Segoe UI, system-ui, sans-serif" font-size="15" fill="#A78BFA" text-anchor="middle" font-weight="600">▲  Vercel</text>
-  <rect x="475" y="586" width="170" height="44" rx="22" fill="#6C63FF" fill-opacity="0.15" stroke="#6C63FF" stroke-opacity="0.4" stroke-width="1"/>
-  <text x="560" y="612" font-family="Segoe UI, system-ui, sans-serif" font-size="15" fill="#A78BFA" text-anchor="middle" font-weight="600">📡  Advanced IoT</text>
+  <line x1="38" y1="682" x2="782" y2="682" stroke="#21262d" stroke-width="1"/>
+  <text x="38" y="712" font-family="Segoe UI, system-ui, sans-serif" font-size="16" font-weight="600" fill="#8b949e">🌱  Currently Learning :</text>
+  <rect x="215" y="686" width="120" height="44" rx="22" fill="#6C63FF" fill-opacity="0.15" stroke="#6C63FF" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="275" y="712" font-family="Segoe UI, system-ui, sans-serif" font-size="15" fill="#A78BFA" text-anchor="middle" font-weight="600">⚛️  React</text>
+  <rect x="345" y="686" width="120" height="44" rx="22" fill="#6C63FF" fill-opacity="0.15" stroke="#6C63FF" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="405" y="712" font-family="Segoe UI, system-ui, sans-serif" font-size="15" fill="#A78BFA" text-anchor="middle" font-weight="600">▲  Vercel</text>
+  <rect x="475" y="686" width="170" height="44" rx="22" fill="#6C63FF" fill-opacity="0.15" stroke="#6C63FF" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="560" y="712" font-family="Segoe UI, system-ui, sans-serif" font-size="15" fill="#A78BFA" text-anchor="middle" font-weight="600">📡  Advanced IoT</text>
 </svg>

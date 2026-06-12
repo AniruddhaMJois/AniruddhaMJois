@@ -34,7 +34,7 @@
 ## 🚧 &nbsp;What I'm Building
 
 <div align="center">
-  <img src="building-card.svg" alt="Active Development Board" width="100%" />
+  <img src="building-card.svg?v=2" alt="Active Development Board" width="100%" />
 </div>
 
 ---
@@ -158,6 +158,21 @@ Embedded IoT system on ESP32 with C++ firmware to detect & predict battery therm
 </details>
 
 <details>
+<summary>&nbsp;<b>✅ Karaneeyaani</b> &nbsp;—&nbsp; Flow-Driven Todo App</summary>
+<br/>
+
+> A premium Todo application grounded in cognitive psychology to reduce procrastination and induce flow states.
+
+| Field | Details |
+|:--|:--|
+| **Stack** | Flutter · Dart · Firebase |
+| **Status** | ✅ Live & Maintained |
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AniruddhaMJois/karaneeyani)
+
+</details>
+
+<details>
 <summary>&nbsp;<b>🚀 FestFlow</b> &nbsp;—&nbsp; Event Management & Safety Dashboard</summary>
 <br/>
 
@@ -209,7 +224,7 @@ Embedded IoT system on ESP32 with C++ firmware to detect & predict battery therm
 <div align="center">
 
 <!-- Streak Stats (Total Contributions & Current Streak only) -->
-<img width="80%" src="streak.svg?v=5" alt="GitHub Streak" />
+<img width="80%" src="streak.svg?v=6" alt="GitHub Streak" />
 
 <br/><br/>
 
@@ -243,11 +258,12 @@ Embedded IoT system on ESP32 with C++ firmware to detect & predict battery therm
 ## 📈 &nbsp;Real-Time Activity
 
 <!--START_SECTION:activity-->
-1. 🔨 Currently building **Gladiators NGO** — a platform for NGO community engagement
-2. 💡 Ideating on **TuskRes** — exploring innovative solutions
-3. 🛡️ Maintaining **SafeX** — women's safety platform
-4. 🔋 Iterating on **Battery Thermal Runaway Identifier**
-5. 🚀 Maintained **FestFlow** — real-time IoT event dashboard
+1. ✅ Launched **Karaneeyaani** — a premium flow-driven Todo application
+2. 🔨 Currently building **Gladiators NGO** — a platform for NGO community engagement
+3. 💡 Ideating on **TuskRes** — exploring innovative solutions
+4. 🛡️ Maintaining **SafeX** — women's safety platform
+5. 🔋 Iterating on **Battery Thermal Runaway Identifier**
+6. 🚀 Maintained **FestFlow** — real-time IoT event dashboard
 <!--END_SECTION:activity-->
 
 ---
