@@ -22,9 +22,9 @@ def get_total_commits():
                 num_part = val[:-1]
                 try:
                     num = int(float(num_part) * 1000)
-                    return f"{num:,}+"
+                    return f"{num:,}"
                 except ValueError:
-                    return "1,000+"
+                    return "1,000"
             return val
     except Exception as e:
         print(f"Stats API failed: {e}")
