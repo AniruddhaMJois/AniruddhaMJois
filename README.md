@@ -34,7 +34,7 @@
 ## 🚧 &nbsp;What I'm Building
 
 <div align="center">
-  <img src="building-card.svg?v=2" alt="Active Development Board" width="100%" />
+  <img src="building-card.svg?v=3" alt="Active Development Board" width="100%" />
 </div>
 
 ---
