@@ -248,9 +248,6 @@ Embedded IoT system on ESP32 with C++ firmware to detect & predict battery therm
 
 <br/><br/>
 
-<!-- Activity Graph -->
-<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=AniruddhaMJois&theme=tokyo-night&hide_border=true&radius=15&area=true" alt="Contribution Graph" />
-
 </div>
 
 ---
@@ -259,7 +256,11 @@ Embedded IoT system on ESP32 with C++ firmware to detect & predict battery therm
 
 <div align="center">
 
-<img alt="github-snake" src="https://github.com/AniruddhaMJois/AniruddhaMJois/blob/output/github-snake-dark.svg?raw=true" width="100%" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AniruddhaMJois/AniruddhaMJois/output/github-snake-dark.svg?v=20260817" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AniruddhaMJois/AniruddhaMJois/output/github-snake.svg?v=20260817" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/AniruddhaMJois/AniruddhaMJois/output/github-snake.svg?v=20260817" width="100%" />
+</picture>
 
 > ⏳ *Snake animation auto-generates via GitHub Actions — run the workflow manually under the [Actions tab](https://github.com/AniruddhaMJois/AniruddhaMJois/actions) for instant results!*
 
