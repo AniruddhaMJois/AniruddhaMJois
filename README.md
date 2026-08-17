@@ -25,13 +25,9 @@
 
 ## 🧑‍💻 &nbsp;About Me
 
-> **Bridging the gap between Software and Hardware.**
-> 
-> I am an Electronics and Communication Engineering student passionate about crafting end-to-end solutions. Whether it's building scalable full-stack web applications, designing intelligent embedded systems, or tackling complex IoT architectures, I thrive on turning innovative ideas into reality.
-
-- 🎓 **Education:** Electronics & Communication Engineering
-- 🎯 **Focus:** Full Stack Web Dev | Embedded C++ | IoT Systems
-- 💡 **Interests:** Hackathons, System Architecture, AI Integrations
+<div align="center">
+  <img src="about-card.svg" alt="About Aniruddha M Jois" width="100%" />
+</div>
 
 ---
 

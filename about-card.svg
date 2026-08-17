@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 330" width="820" height="330">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b28"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6C63FF"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="60%" stop-color="#e2d9ff"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Card background -->
+  <rect width="820" height="330" rx="18" fill="url(#cardBg)" stroke="#30363d" stroke-width="1.5"/>
+
+  <!-- Top gradient accent bar -->
+  <rect width="820" height="4" rx="2" fill="url(#accentGrad)"/>
+
+  <!-- Left accent bar -->
+  <rect x="0" y="4" width="4" height="322" rx="2" fill="url(#accentGrad)"/>
+
+  <!-- Decorative BG glow circles -->
+  <circle cx="740" cy="80" r="110" fill="#6C63FF" opacity="0.05"/>
+  <circle cx="780" cy="290" r="70" fill="#A78BFA" opacity="0.05"/>
+  <circle cx="80" cy="290" r="50" fill="#6C63FF" opacity="0.03"/>
+
+  <!-- Decorative corner traffic dots -->
+  <circle cx="746" cy="28" r="4" fill="#6C63FF" opacity="0.6" filter="url(#glow)"/>
+  <circle cx="762" cy="28" r="4" fill="#8B5CF6" opacity="0.6" filter="url(#glow)"/>
+  <circle cx="778" cy="28" r="4" fill="#A78BFA" opacity="0.6" filter="url(#glow)"/>
+
+  <!-- Name -->
+  <text x="38" y="70" font-family="Segoe UI, system-ui, -apple-system, sans-serif" font-size="32" font-weight="700" fill="url(#nameGrad)">Aniruddha M Jois</text>
+
+  <!-- Role pill -->
+  <rect x="38" y="82" width="430" height="26" rx="13" fill="#6C63FF" fill-opacity="0.12" stroke="#6C63FF" stroke-opacity="0.25" stroke-width="1"/>
+  <text x="52" y="99" font-family="Segoe UI, system-ui, sans-serif" font-size="12" fill="#A78BFA" letter-spacing="0.4">⚡  Full Stack Developer  ·  IoT Enthusiast  ·  Embedded Systems</text>
+
+  <!-- Horizontal divider -->
+  <line x1="38" y1="126" x2="782" y2="126" stroke="#21262d" stroke-width="1.5"/>
+
+  <!-- ===== LEFT COLUMN ===== -->
+
+  <!-- LOCATION -->
+  <text x="38" y="154" font-family="Segoe UI, system-ui, sans-serif" font-size="10" font-weight="600" fill="#6C63FF" letter-spacing="1.5">LOCATION</text>
+  <text x="38" y="172" font-family="Segoe UI, system-ui, sans-serif" font-size="14" fill="#c9d1d9">📍  India</text>
+
+  <!-- EDUCATION -->
+  <text x="38" y="202" font-family="Segoe UI, system-ui, sans-serif" font-size="10" font-weight="600" fill="#6C63FF" letter-spacing="1.5">EDUCATION</text>
+  <text x="38" y="220" font-family="Segoe UI, system-ui, sans-serif" font-size="13" fill="#c9d1d9">🎓  Vidya Vardhaka College of Engineering</text>
+
+  <!-- CURRENTLY BUILDING -->
+  <text x="38" y="250" font-family="Segoe UI, system-ui, sans-serif" font-size="10" font-weight="600" fill="#6C63FF" letter-spacing="1.5">CURRENTLY BUILDING</text>
+  <text x="38" y="268" font-family="Segoe UI, system-ui, sans-serif" font-size="13" fill="#c9d1d9">🔭  Gladiators NGO Platform</text>
+
+  <!-- Vertical column divider -->
+  <line x1="420" y1="136" x2="420" y2="288" stroke="#21262d" stroke-width="1"/>
+
+  <!-- ===== RIGHT COLUMN ===== -->
+
+  <!-- INTERESTS -->
+  <text x="440" y="154" font-family="Segoe UI, system-ui, sans-serif" font-size="10" font-weight="600" fill="#A78BFA" letter-spacing="1.5">INTERESTS</text>
+  <text x="440" y="172" font-family="Segoe UI, system-ui, sans-serif" font-size="13" fill="#c9d1d9">💡  Web Dev · Embedded · IoT · Hackathons</text>
+
+  <!-- LEARNING -->
+  <text x="440" y="202" font-family="Segoe UI, system-ui, sans-serif" font-size="10" font-weight="600" fill="#A78BFA" letter-spacing="1.5">LEARNING</text>
+  <text x="440" y="220" font-family="Segoe UI, system-ui, sans-serif" font-size="13" fill="#c9d1d9">🌱  React · Vercel · Advanced IoT</text>
+
+  <!-- OPEN TO -->
+  <text x="440" y="250" font-family="Segoe UI, system-ui, sans-serif" font-size="10" font-weight="600" fill="#A78BFA" letter-spacing="1.5">OPEN TO</text>
+  <text x="440" y="268" font-family="Segoe UI, system-ui, sans-serif" font-size="13" fill="#c9d1d9">🤝  Collaborations &amp; Hackathons</text>
+
+  <!-- Bottom horizontal divider -->
+  <line x1="38" y1="290" x2="782" y2="290" stroke="#21262d" stroke-width="1"/>
+
+  <!-- Quote at bottom -->
+  <text x="411" y="313" font-family="Segoe UI, system-ui, sans-serif" font-size="11" fill="#6C63FF" fill-opacity="0.85" text-anchor="middle" font-style="italic">"Turning hackathon ideas into production‑ready products — one commit at a time."</text>
+</svg>
