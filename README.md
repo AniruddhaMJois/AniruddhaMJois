@@ -244,12 +244,12 @@ Embedded IoT system on ESP32 with C++ firmware to detect & predict battery therm
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats-eight-theta.vercel.app/api?username=AniruddhaMJois&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&include_all_commits=true&v=1" />
-<img height="180" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=AniruddhaMJois&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&v=1" />
+<img height="180" src="https://github-readme-stats-eight-theta.vercel.app/api?username=AniruddhaMJois&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&include_all_commits=true&hide_title=true&hide_rank=true" />
+<img height="180" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=AniruddhaMJois&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&hide_title=true" />
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com/?user=AniruddhaMJois&theme=tokyonight&hide_border=true&background=0D1117&v=1" alt="GitHub Streak" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=AniruddhaMJois&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" />
 
 <br/><br/>
 
@@ -266,11 +266,7 @@ Embedded IoT system on ESP32 with C++ firmware to detect & predict battery therm
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AniruddhaMJois/AniruddhaMJois/output/github-snake-dark.svg?raw=true" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AniruddhaMJois/AniruddhaMJois/output/github-snake.svg?raw=true" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/AniruddhaMJois/AniruddhaMJois/output/github-snake.svg?raw=true" />
-</picture>
+<img alt="github-snake" src="https://github.com/AniruddhaMJois/AniruddhaMJois/blob/output/github-snake-dark.svg?raw=true" width="100%" />
 
 > ⏳ *Snake animation auto-generates via GitHub Actions — run the workflow manually under the [Actions tab](https://github.com/AniruddhaMJois/AniruddhaMJois/actions) for instant results!*
 
