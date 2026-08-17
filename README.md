@@ -26,7 +26,7 @@
 ## 🧑‍💻 &nbsp;About Me
 
 <div align="center">
-  <img src="about-card.svg" alt="About Aniruddha M Jois" width="100%" />
+  <img src="about_me.svg" alt="About Aniruddha M Jois" width="100%" />
 </div>
 
 ---
@@ -244,16 +244,9 @@ Embedded IoT system on ESP32 with C++ firmware to detect & predict battery therm
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats-eight-theta.vercel.app/api?username=AniruddhaMJois&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&include_all_commits=true&hide_title=true&hide_rank=true" />
-<img height="180" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=AniruddhaMJois&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&hide_title=true" />
+<img width="80%" src="streak.svg" alt="GitHub Streak" />
 
 <br/><br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=AniruddhaMJois&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" />
-
-<br/><br/>
-
-
 
 <!-- Activity Graph -->
 <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=AniruddhaMJois&theme=tokyo-night&hide_border=true&radius=15&area=true" alt="Contribution Graph" />
