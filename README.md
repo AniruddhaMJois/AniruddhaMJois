@@ -37,9 +37,18 @@
 
 ## 🚧 &nbsp;What I'm Building
 
-<div align="center">
-  <img src="building-card.svg?v=3" alt="Active Development Board" width="100%" />
-</div>
+| Project | Type | Progress | Status |
+| :--- | :--- | :--- | :--- |
+| **🐘 TuskRes** | Early Conflict Alerts | `🟩🟩🟩⬛⬛⬛⬛⬛⬛⬛` **30%** | 💡 Ideation |
+| **🛡️ Gladiators NGO** | Community Platform | `🟩🟩🟩🟩🟩🟩🟩⬛⬛⬛` **70%** | 🔨 In Progress |
+| **✅ Karaneeyaani** | Cognitive Todo App | `🟩🟩🟩🟩🟩🟩🟩🟩⬛⬛` **80%** | 🔨 In Progress |
+| **🔋 Battery Thermal ID** | Embedded IoT | `🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩` **100%** | ✅ Live |
+| **🚀 FestFlow** | Event Dashboard | `🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩` **100%** | ✅ Live |
+| **🛡️ SafeX** | Women's Safety | `🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩` **100%** | ✅ Live |
+
+<br/>
+
+**🌱 Currently Learning:** `⚛️ React` `▲ Vercel` `📡 Advanced IoT`
 
 ---
 
@@ -239,8 +248,12 @@ Embedded IoT system on ESP32 with C++ firmware to detect & predict battery therm
 
 <div align="center">
 
-<!-- Streak Stats (Total Contributions & Current Streak only) -->
-<img width="80%" src="streak.svg?v=9" alt="GitHub Streak" />
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=AniruddhaMJois&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" />
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AniruddhaMJois&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" />
+
+<br/><br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=AniruddhaMJois&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" />
 
 <br/><br/>
 
