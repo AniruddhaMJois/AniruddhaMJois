@@ -25,11 +25,11 @@
 
 ## 🧑‍💻 &nbsp;About Me
 
-> **[Your Catchy Headline / Mission Statement here]**
+> **Bridging the gap between Software and Hardware.**
 
-Hello! I am a **[Your Profession/Degree]** who is deeply passionate about **[Your Core Passion]**. With a strong foundation in **[Domain 1]** and **[Domain 2]**, I focus on building solutions that **[What value you bring]**. 
+Hello! I am an **Electronics and Communication Engineering student** deeply passionate about **crafting end-to-end solutions**. With a strong foundation in **Full-Stack Web Development** and **Embedded Systems**, I focus on building scalable applications and intelligent IoT architectures that turn complex ideas into reality.
 
-When I am not coding, I am **[Hobbies or other interests]**.
+When I am not coding, I am usually participating in **Hackathons**, exploring **System Architecture**, or experimenting with **AI Integrations**.
 
 <br/>
 
@@ -38,17 +38,17 @@ When I am not coding, I am **[Hobbies or other interests]**.
     <td width="50%">
       <h3>🎓 Background</h3>
       <ul>
-        <li><b>Degree:</b> [Your Degree Name]</li>
-        <li><b>University:</b> [Your University Name]</li>
-        <li><b>Graduation:</b> [Year]</li>
+        <li><b>Degree:</b> Electronics & Communication Engineering</li>
+        <li><b>University:</b> Vidya Vardhaka College of Engineering</li>
+        <li><b>Graduation:</b> 2026</li>
       </ul>
     </td>
     <td width="50%">
       <h3>🎯 Focus Areas</h3>
       <ul>
-        <li><b>Primary:</b> [Skill 1, Skill 2]</li>
-        <li><b>Secondary:</b> [Skill 3, Skill 4]</li>
-        <li><b>Domains:</b> [Domain 1, Domain 2]</li>
+        <li><b>Primary:</b> Embedded C++, React, Flutter</li>
+        <li><b>Secondary:</b> Firebase, Vercel, ESP32</li>
+        <li><b>Domains:</b> IoT Systems, Full-Stack Web Dev</li>
       </ul>
     </td>
   </tr>
