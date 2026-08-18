@@ -4,7 +4,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=ANIRUDDHA%20M%20JOIS&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full%20Stack%20Developer%20%7C%20IoT%20Enthusiast%20%7C%20Embedded%20Systems&descSize=16&descAlignY=55&descAlign=50" width="100%" />
 
 <!-- Animated Typing Subtitle -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=900&height=50&lines=%E2%9A%A1%20Architecting%20scalable%20software%20and%20intelligent%20IoT%20solutions%20for%20the%20real%20world.%20%E2%9A%A1" alt="Tagline" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=1000&color=A78BFA&center=true&vCenter=true&multiline=false&repeat=true&random=false&width=650&height=50&lines=%E2%9A%A1+Architecting+scalable+software+%E2%9A%A1;%E2%9A%A1+and+intelligent+IoT+solutions+%E2%9A%A1;%E2%9A%A1+for+the+real+world.+%E2%9A%A1" alt="Tagline" /></a>
 
 <br/>
 
