@@ -1,60 +1,38 @@
-﻿<svg width="850" height="420" viewBox="0 0 850 420" xmlns="http://www.w3.org/2000/svg">
+﻿<svg width="650" height="230" viewBox="0 0 650 230" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#2a2e45;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#1a1b27;stop-opacity:1" />
-    </linearGradient>
-    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#70A5FD;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#BF91F3;stop-opacity:1" />
-    </linearGradient>
+    <style>
+      .bg { fill: #1a1b27; rx: 15px; stroke: #38BDAE; stroke-width: 1px; }
+      .name { font: 600 22px 'Segoe UI', system-ui, sans-serif; fill: #70A5FD; }
+      .subtitle { font: 400 14px 'Segoe UI', system-ui, sans-serif; fill: #a9b1d6; }
+      .item { font: 400 14px 'Segoe UI', system-ui, sans-serif; fill: #c0caf5; }
+      .highlight { font-weight: 600; fill: #BF91F3; }
+      .icon { font-size: 14px; }
+    </style>
   </defs>
 
   <!-- Background -->
-  <rect width="850" height="420" fill="url(#grad1)" rx="15" ry="15" stroke="#38BDAE" stroke-width="1.5" />
+  <rect class="bg" width="650" height="230" />
   
-  <!-- Headline -->
-  <text x="40" y="55" font-family="'Segoe UI', Ubuntu, sans-serif" font-weight="800" font-size="22" fill="url(#textGrad)">
-    Architecting intelligent systems at the intersection of software engineering
-  </text>
-  <text x="40" y="85" font-family="'Segoe UI', Ubuntu, sans-serif" font-weight="800" font-size="22" fill="url(#textGrad)">
-    and hardware to solve real-world challenges.
-  </text>
-
-  <!-- Bio -->
-  <text x="40" y="135" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="16" fill="#c0caf5">
-    <tspan x="40" dy="0">Hello! I am a Computer Science Engineering student who is deeply passionate about</tspan>
-    <tspan x="40" dy="24">integrating hardware and software to build impactful IoT and cybersecurity systems. With a</tspan>
-    <tspan x="40" dy="24">strong foundation in Software Development and IoT Architecture, I focus on building</tspan>
-    <tspan x="40" dy="24">solutions that turn complex ideas into scalable, real-world applications.</tspan>
-  </text>
-
-  <text x="40" y="245" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="16" fill="#c0caf5">
-    <tspan x="40" dy="0">When I am not coding, I am playing the Tabla and keyboard, studying Sanskrit</tspan>
-    <tspan x="40" dy="24">literature, or playing cricket and badminton.</tspan>
-  </text>
+  <!-- Profile Picture / Circle -->
+  <g transform="translate(40, 40)">
+    <circle cx="30" cy="30" r="30" fill="#2a2e45" stroke="#38BDAE" stroke-width="2" />
+    <!-- Initials inside the circle -->
+    <text x="30" y="36" font-family="'Segoe UI', system-ui, sans-serif" font-weight="700" font-size="20" fill="#70A5FD" text-anchor="middle">AMJ</text>
+  </g>
+  
+  <!-- Header Text -->
+  <text x="120" y="58" class="name">Aniruddha M Jois</text>
+  <text x="120" y="82" class="subtitle">B.E. Computer Science Engineering (Class of 2029)</text>
+  <text x="120" y="102" class="subtitle">Vidya Vardhaka College of Engineering</text>
 
   <!-- Divider -->
-  <line x1="40" y1="295" x2="810" y2="295" stroke="#38BDAE" stroke-width="1.5" stroke-dasharray="6,4" opacity="0.6" />
+  <line x1="40" y1="120" x2="610" y2="120" stroke="#a9b1d6" stroke-dasharray="2" opacity="0.2" />
 
-  <!-- Background Section -->
-  <text x="40" y="335" font-family="'Segoe UI', Ubuntu, sans-serif" font-weight="700" font-size="19" fill="#70A5FD">
-    🎓 Background
-  </text>
-  <text x="40" y="365" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="15" fill="#c0caf5">
-    <tspan x="40" dy="0"><tspan font-weight="700" fill="#BF91F3">Degree: </tspan>B.E. in Computer Science Engineering</tspan>
-    <tspan x="40" dy="24"><tspan font-weight="700" fill="#BF91F3">University: </tspan>Vidya Vardhaka College of Engineering</tspan>
-    <tspan x="40" dy="24"><tspan font-weight="700" fill="#BF91F3">Graduation: </tspan>2029</tspan>
-  </text>
-
-  <!-- Focus Areas Section -->
-  <text x="450" y="335" font-family="'Segoe UI', Ubuntu, sans-serif" font-weight="700" font-size="19" fill="#70A5FD">
-    🎯 Focus Areas
-  </text>
-  <text x="450" y="365" font-family="'Segoe UI', Ubuntu, sans-serif" font-size="15" fill="#c0caf5">
-    <tspan x="450" dy="0"><tspan font-weight="700" fill="#BF91F3">Primary: </tspan>Java, C/C++, Python</tspan>
-    <tspan x="450" dy="24"><tspan font-weight="700" fill="#BF91F3">Secondary: </tspan>HTML/CSS, ESP32, Arduino Uno</tspan>
-    <tspan x="450" dy="24"><tspan font-weight="700" fill="#BF91F3">Domains: </tspan>IoT Development, Cybersecurity, Full-Stack</tspan>
-  </text>
+  <!-- Content / Info -->
+  <text x="40" y="150" class="item"><tspan class="icon">💻</tspan> <tspan class="highlight">Primary Stack: </tspan> Java, C/C++, Python</text>
+  <text x="40" y="175" class="item"><tspan class="icon">⚙️</tspan> <tspan class="highlight">Secondary Stack: </tspan> HTML/CSS, ESP32, Arduino Uno</text>
+  
+  <text x="340" y="150" class="item"><tspan class="icon">🎯</tspan> <tspan class="highlight">Domains: </tspan> IoT, Cybersecurity, Full-Stack</text>
+  <text x="340" y="175" class="item"><tspan class="icon">🎵</tspan> <tspan class="highlight">Interests: </tspan> Tabla, Sanskrit, Cricket</text>
 
 </svg>

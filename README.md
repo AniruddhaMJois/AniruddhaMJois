@@ -26,7 +26,7 @@
 ## 🧑‍💻 &nbsp;About Me
 
 <p align="center">
-  <img src="about_me.svg?v=1" alt="About Aniruddha M Jois" width="100%" />
+  <img src="about_me.svg?v=2" alt="About Aniruddha M Jois" width="100%" />
 </p>
 
 ---
