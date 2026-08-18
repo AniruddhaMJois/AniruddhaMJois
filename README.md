@@ -42,9 +42,6 @@
 | **🚀 FestFlow** | Event Dashboard | `🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩` **100%** | ✅ Live |
 | **🛡️ SafeX** | Women's Safety | `🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩` **100%** | ✅ Live |
 
-<br/>
-
-**🌱 Currently Learning:** `⚛️ React` `▲ Vercel` `📡 Advanced IoT`
 
 ---
 
