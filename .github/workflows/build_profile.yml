@@ -1,4 +1,4 @@
-﻿name: Build Profile SVGs
+name: Build Profile SVGs
 
 on:
   schedule:
@@ -20,9 +20,6 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Generate About Me SVG
-        run: python .github/scripts/build_about_me.py
-
       - name: Generate Streak and Commits SVG
         run: python .github/scripts/build_streak.py
 
@@ -30,7 +27,7 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add about_me.svg streak.svg
+          git add streak.svg
           git diff --quiet && git diff --staged --quiet || (git commit -m "chore: Update Profile SVGs" && git push)
 
   snake:
