@@ -25,9 +25,34 @@
 
 ## 🧑‍💻 &nbsp;About Me
 
-<div align="center">
-  <img src="about_me.svg" alt="About Aniruddha M Jois" width="100%" />
-</div>
+> **[Your Catchy Headline / Mission Statement here]**
+
+Hello! I am a **[Your Profession/Degree]** who is deeply passionate about **[Your Core Passion]**. With a strong foundation in **[Domain 1]** and **[Domain 2]**, I focus on building solutions that **[What value you bring]**. 
+
+When I am not coding, I am **[Hobbies or other interests]**.
+
+<br/>
+
+<table>
+  <tr>
+    <td width="50%">
+      <h3>🎓 Background</h3>
+      <ul>
+        <li><b>Degree:</b> [Your Degree Name]</li>
+        <li><b>University:</b> [Your University Name]</li>
+        <li><b>Graduation:</b> [Year]</li>
+      </ul>
+    </td>
+    <td width="50%">
+      <h3>🎯 Focus Areas</h3>
+      <ul>
+        <li><b>Primary:</b> [Skill 1, Skill 2]</li>
+        <li><b>Secondary:</b> [Skill 3, Skill 4]</li>
+        <li><b>Domains:</b> [Domain 1, Domain 2]</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ---
 
