@@ -25,34 +25,9 @@
 
 ## 🧑‍💻 &nbsp;About Me
 
-> **Architecting intelligent systems at the intersection of software engineering and hardware to solve real-world challenges.**
- 
-Hello! I am a **Computer Science Engineering student** who is deeply passionate about **integrating hardware and software to build impactful IoT and cybersecurity systems**. With a strong foundation in **Software Development** and **IoT Architecture**, I focus on building solutions that **turn complex ideas into scalable, real-world applications**. 
- 
-When I am not coding, I am **playing the Tabla and keyboard, studying Sanskrit literature, or playing cricket and badminton**.
- 
-<br/>
- 
-<table>
-  <tr>
-    <td width="50%">
-      <h3>🎓 Background</h3>
-      <ul>
-        <li><b>Degree:</b> B.E. in Computer Science Engineering</li>
-        <li><b>University:</b> Vidya Vardhaka College of Engineering</li>
-        <li><b>Graduation:</b> 2029</li>
-      </ul>
-    </td>
-    <td width="50%">
-      <h3>🎯 Focus Areas</h3>
-      <ul>
-        <li><b>Primary:</b> Java, C/C++, Python</li>
-        <li><b>Secondary:</b> HTML/CSS, ESP32, Arduino Uno</li>
-        <li><b>Domains:</b> IoT Development, Cybersecurity, Full-Stack</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="about_me.svg?v=1" alt="About Aniruddha M Jois" width="100%" />
+</p>
 
 ---
 
