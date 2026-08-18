@@ -16,11 +16,11 @@ def get_total_commits():
             return match.group(1)
     except:
         pass
-    return "1.3k+" # fallback
+    return "1.3k+"
 
 total_commits = get_total_commits()
 
-for i in range(5):
+for i in range(1):
     try:
         req = urllib.request.Request(URL_STREAK, headers={'User-Agent': 'Mozilla/5.0'})
         response = urllib.request.urlopen(req)
@@ -28,14 +28,39 @@ for i in range(5):
             svg_data = response.read().decode('utf-8')
             if "Failed to retrieve" not in svg_data:
                 
-                # Extract original Total Contributions number
-                contrib_match = re.search(r'(<!-- Total Contributions big number -->.*?<text[^>]*>)\s*([\d,]+)\s*(</text>)', svg_data, re.DOTALL)
-                total_contribs = contrib_match.group(2) if contrib_match else "0"
-
-                # Rename the first column (Total Contributions -> Total Commits)
-                svg_data = svg_data.replace("Total Contributions", "Total Commits", 4)
+                # Expand SVG to 4 columns (Width from 495 to 660)
+                svg_data = svg_data.replace('495', '660')
+                svg_data = svg_data.replace('494', '659')
                 
-                # Modify Column 1 (Total Commits)
+                svg_data = svg_data.replace(
+                    "<line x1='330' y1='28' x2='330' y2='170'",
+                    "<line x1='330' y1='28' x2='330' y2='170' vector-effect='non-scaling-stroke' stroke-width='1' stroke='#E4E2E2' stroke-linejoin='miter' stroke-linecap='square' stroke-miterlimit='3'/>\n                <line x1='495' y1='28' x2='495' y2='170'"
+                )
+
+                # Fetch original Total Contributions
+                contrib_match = re.search(r'<!-- Total Contributions big number -->.*?<text[^>]*>\s*([\d,]+)\s*</text>', svg_data, re.DOTALL)
+                total_contribs = contrib_match.group(1) if contrib_match else "0"
+
+                # Grab the entire Longest Streak outer group
+                # It has exactly 3 inner <g> tags.
+                # So we match <g isolation> up to its closing </g>
+                longest_match = re.search(r'(<g style=\'isolation: isolate\'>\s*<!-- Longest Streak big number -->.*?<!-- Longest Streak range -->.*?</g>\s*</g>\s*</g>)', svg_data, re.DOTALL)
+                
+                if longest_match:
+                    longest_group = longest_match.group(1)
+                    
+                    # Create Col 4 (Total Contributions)
+                    col4_group = longest_group.replace("412.5", "577.5")
+                    col4_group = col4_group.replace("Longest Streak", "Total Contributions")
+                    
+                    col4_group = re.sub(r'(<!-- Total Contributions big number -->.*?<text[^>]*>)\s*[\d,]+\s*(</text>)', r'\g<1>' + total_contribs + r'\g<2>', col4_group, flags=re.DOTALL)
+                    col4_group = re.sub(r'(<!-- Total Contributions range -->.*?<text[^>]*>)[^<]+(</text>)', r'\g<1>All Time\g<2>', col4_group, flags=re.DOTALL)
+
+                    # Inject col4_group after longest_group
+                    svg_data = svg_data.replace(longest_group, longest_group + "\n            " + col4_group)
+
+                # Now modify Col 1 (Total Contributions -> Total Commits)
+                svg_data = svg_data.replace("Total Contributions", "Total Commits", 4)
                 svg_data = re.sub(
                     r'(<!-- Total Commits big number -->.*?<text[^>]*>)\s*[\d,]+\s*(</text>)',
                     r'\g<1>' + str(total_commits) + r'\g<2>',
@@ -47,22 +72,7 @@ for i in range(5):
                     svg_data, flags=re.DOTALL
                 )
 
-                # Rename the third column (Longest Streak -> Total Contributions)
-                svg_data = svg_data.replace("Longest Streak", "Total Contributions", 4)
-                
-                # Modify Column 3
-                svg_data = re.sub(
-                    r'(<!-- Total Contributions big number -->.*?<text[^>]*>)\s*[\d,]+\s*(</text>)',
-                    r'\g<1>' + total_contribs + r'\g<2>',
-                    svg_data, flags=re.DOTALL
-                )
-                svg_data = re.sub(
-                    r'(<!-- Total Contributions range -->.*?<text[^>]*>)[^<]+(</text>)',
-                    r'\g<1>Last 1 Year\g<2>',
-                    svg_data, flags=re.DOTALL
-                )
-
-                # Modify Column 2 (Current Streak to "5" and "Aug 14 - Present")
+                # Modify Col 2 (Current Streak to 5 and Aug 14)
                 svg_data = re.sub(
                     r'(<!-- Current Streak big number -->.*?<text[^>]*>)\s*[\d,]+\s*(</text>)',
                     r'\g<1>5\g<2>',
@@ -76,13 +86,9 @@ for i in range(5):
 
                 with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
                     f.write(svg_data)
-                print("Successfully fetched and processed streak SVG.")
+                print("Successfully generated 4-column SVG.")
                 sys.exit(0)
-            else:
-                print(f"Attempt {i+1} failed: GitHub API rate limited.")
     except Exception as e:
-        print(f"Attempt {i+1} failed: {e}")
-    time.sleep(10)
+        print(f"Error: {e}")
 
-print("Failed to fetch streak SVG after 5 attempts.")
 sys.exit(1)
