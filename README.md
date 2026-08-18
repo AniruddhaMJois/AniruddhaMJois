@@ -4,7 +4,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=ANIRUDDHA%20M%20JOIS&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full%20Stack%20Developer%20%7C%20IoT%20Enthusiast%20%7C%20Embedded%20Systems&descSize=16&descAlignY=55&descAlign=50" width="100%" />
 
 <!-- Animated Typing Subtitle -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=650&height=50&lines=%E2%9A%A1+Building+Solutions+That+Matter+%E2%9A%A1" alt="Tagline" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=900&height=50&lines=%E2%9A%A1%20Architecting%20scalable%20software%20and%20intelligent%20IoT%20solutions%20for%20the%20real%20world.%20%E2%9A%A1" alt="Tagline" /></a>
 
 <br/>
 
@@ -25,30 +25,30 @@
 
 ## 🧑‍💻 &nbsp;About Me
 
-> **Bridging the gap between Software and Hardware.**
-
-Hello! I am an **Electronics and Communication Engineering student** deeply passionate about **crafting end-to-end solutions**. With a strong foundation in **Full-Stack Web Development** and **Embedded Systems**, I focus on building scalable applications and intelligent IoT architectures that turn complex ideas into reality.
-
-When I am not coding, I am usually participating in **Hackathons**, exploring **System Architecture**, or experimenting with **AI Integrations**.
-
+> **Architecting intelligent systems at the intersection of software engineering and hardware to solve real-world challenges.**
+ 
+Hello! I am a **Computer Science Engineering student** who is deeply passionate about **integrating hardware and software to build impactful IoT and cybersecurity systems**. With a strong foundation in **Software Development** and **IoT Architecture**, I focus on building solutions that **turn complex ideas into scalable, real-world applications**. 
+ 
+When I am not coding, I am **playing the Tabla and keyboard, studying Sanskrit literature, or playing cricket and badminton**.
+ 
 <br/>
-
+ 
 <table>
   <tr>
     <td width="50%">
       <h3>🎓 Background</h3>
       <ul>
-        <li><b>Degree:</b> Electronics & Communication Engineering</li>
+        <li><b>Degree:</b> B.E. in Computer Science Engineering</li>
         <li><b>University:</b> Vidya Vardhaka College of Engineering</li>
-        <li><b>Graduation:</b> 2026</li>
+        <li><b>Graduation:</b> 2029</li>
       </ul>
     </td>
     <td width="50%">
       <h3>🎯 Focus Areas</h3>
       <ul>
-        <li><b>Primary:</b> Embedded C++, React, Flutter</li>
-        <li><b>Secondary:</b> Firebase, Vercel, ESP32</li>
-        <li><b>Domains:</b> IoT Systems, Full-Stack Web Dev</li>
+        <li><b>Primary:</b> Java, C/C++, Python</li>
+        <li><b>Secondary:</b> HTML/CSS, ESP32, Arduino Uno</li>
+        <li><b>Domains:</b> IoT Development, Cybersecurity, Full-Stack</li>
       </ul>
     </td>
   </tr>
