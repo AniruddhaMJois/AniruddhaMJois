@@ -49,7 +49,8 @@ for i in range(5):
                 contrib_match = re.search(r'<!-- Total Contributions big number -->.*?<text[^>]*>\s*([\d,]+)\s*</text>', svg_data, re.DOTALL)
                 total_contribs = contrib_match.group(1) if contrib_match else "0"
 
-                longest_match = re.search(r'(<g style=\'isolation: isolate\'>\s*<!-- Longest Streak big number -->.*?<!-- Longest Streak range -->.*?</g>\s*</g>\s*</g>)', svg_data, re.DOTALL)
+                # Grab the entire Longest Streak outer group
+                longest_match = re.search(r'(<g style=\'isolation: isolate\'>\s*<!-- Longest Streak big number -->.*?<!-- Longest Streak range -->.*?</text>\s*</g>\s*</g>)', svg_data, re.DOTALL)
                 
                 if longest_match:
                     longest_group = longest_match.group(1)
