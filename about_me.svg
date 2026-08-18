@@ -1,38 +1,79 @@
-﻿<svg width="650" height="230" viewBox="0 0 650 230" xmlns="http://www.w3.org/2000/svg">
+﻿<svg width="800" height="320" viewBox="0 0 800 320" xmlns="http://www.w3.org/2000/svg">
   <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#020617;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- Border Gradient -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#06b6d4;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#10b981;stop-opacity:0.8" />
+    </linearGradient>
+
+    <!-- Glassmorphism filter for avatar -->
+    <linearGradient id="avatarBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e293b;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#0f172a;stop-opacity:0.8" />
+    </linearGradient>
+
     <style>
-      .bg { fill: #1a1b27; rx: 15px; stroke: #38BDAE; stroke-width: 1px; }
-      .name { font: 600 22px 'Segoe UI', system-ui, sans-serif; fill: #70A5FD; }
-      .subtitle { font: 400 14px 'Segoe UI', system-ui, sans-serif; fill: #a9b1d6; }
-      .item { font: 400 14px 'Segoe UI', system-ui, sans-serif; fill: #c0caf5; }
-      .highlight { font-weight: 600; fill: #BF91F3; }
-      .icon { font-size: 14px; }
+      .card-bg { fill: url(#bgGrad); stroke: url(#borderGrad); stroke-width: 1.5px; rx: 16px; }
+      .name { font: 700 26px 'Inter', system-ui, sans-serif; fill: #f8fafc; }
+      .subtitle { font: 500 14px 'Inter', system-ui, sans-serif; fill: #94a3b8; }
+      
+      .grid-title { font: 600 15px 'Inter', system-ui, sans-serif; fill: #e2e8f0; }
+      .grid-text { font: 400 14px 'Inter', system-ui, sans-serif; fill: #94a3b8; }
+      .icon-stroke { fill: none; stroke: #06b6d4; stroke-width: 2px; stroke-linecap: round; stroke-linejoin: round; }
     </style>
   </defs>
 
-  <!-- Background -->
-  <rect class="bg" width="650" height="230" />
-  
-  <!-- Profile Picture / Circle -->
+  <!-- Card Background -->
+  <rect class="card-bg" width="798" height="318" x="1" y="1" />
+
+  <!-- Avatar Section -->
   <g transform="translate(40, 40)">
-    <circle cx="30" cy="30" r="30" fill="#2a2e45" stroke="#38BDAE" stroke-width="2" />
-    <!-- Initials inside the circle -->
-    <text x="30" y="36" font-family="'Segoe UI', system-ui, sans-serif" font-weight="700" font-size="20" fill="#70A5FD" text-anchor="middle">AMJ</text>
+    <circle cx="32" cy="32" r="32" fill="url(#avatarBg)" stroke="#06b6d4" stroke-width="1.5" stroke-opacity="0.5" />
+    <text x="32" y="40" font-family="'Inter', system-ui, sans-serif" font-weight="700" font-size="20" fill="#06b6d4" text-anchor="middle">AM</text>
   </g>
-  
-  <!-- Header Text -->
-  <text x="120" y="58" class="name">Aniruddha M Jois</text>
-  <text x="120" y="82" class="subtitle">B.E. Computer Science Engineering (Class of 2029)</text>
-  <text x="120" y="102" class="subtitle">Vidya Vardhaka College of Engineering</text>
+
+  <text x="120" y="70" class="name">ANIRUDDH M</text>
+  <text x="120" y="94" class="subtitle">B.E. Computer Science Engineering (Class of 2029) • Vidya Vardhaka College of Engineering</text>
 
   <!-- Divider -->
-  <line x1="40" y1="120" x2="610" y2="120" stroke="#a9b1d6" stroke-dasharray="2" opacity="0.2" />
+  <line x1="40" y1="130" x2="760" y2="130" stroke="#334155" stroke-width="1" />
 
-  <!-- Content / Info -->
-  <text x="40" y="150" class="item"><tspan class="icon">💻</tspan> <tspan class="highlight">Primary Stack: </tspan> Java, C/C++, Python</text>
-  <text x="40" y="175" class="item"><tspan class="icon">⚙️</tspan> <tspan class="highlight">Secondary Stack: </tspan> HTML/CSS, ESP32, Arduino Uno</text>
-  
-  <text x="340" y="150" class="item"><tspan class="icon">🎯</tspan> <tspan class="highlight">Domains: </tspan> IoT, Cybersecurity, Full-Stack</text>
-  <text x="340" y="175" class="item"><tspan class="icon">🎵</tspan> <tspan class="highlight">Interests: </tspan> Tabla, Sanskrit, Cricket</text>
+  <!-- Grid Item 1: Primary Stack -->
+  <g transform="translate(40, 160)">
+    <rect width="36" height="36" rx="8" fill="#06b6d4" fill-opacity="0.1" stroke="#06b6d4" stroke-opacity="0.2" />
+    <path class="icon-stroke" d="M16 18l6-6-6-6M8 6l-6 6 6 6" transform="translate(6, 6) scale(0.7)" />
+    <text x="50" y="16" class="grid-title">Primary Stack</text>
+    <text x="50" y="34" class="grid-text">Java, C/C++, Python</text>
+  </g>
+
+  <!-- Grid Item 2: Domains -->
+  <g transform="translate(420, 160)">
+    <rect width="36" height="36" rx="8" fill="#10b981" fill-opacity="0.1" stroke="#10b981" stroke-opacity="0.2" />
+    <path fill="none" stroke="#10b981" stroke-width="2px" stroke-linecap="round" stroke-linejoin="round" d="M12 2v4m0 12v4M2 12h4m12 0h4m-4-7v14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2z" transform="translate(6, 6) scale(0.7)" />
+    <text x="50" y="16" class="grid-title">Domains</text>
+    <text x="50" y="34" class="grid-text">IoT, Cybersecurity, Full-Stack</text>
+  </g>
+
+  <!-- Grid Item 3: Secondary Stack -->
+  <g transform="translate(40, 230)">
+    <rect width="36" height="36" rx="8" fill="#8b5cf6" fill-opacity="0.1" stroke="#8b5cf6" stroke-opacity="0.2" />
+    <path fill="none" stroke="#8b5cf6" stroke-width="2px" stroke-linecap="round" stroke-linejoin="round" d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" transform="translate(6, 6) scale(0.7)" />
+    <text x="50" y="16" class="grid-title">Secondary Stack</text>
+    <text x="50" y="34" class="grid-text">HTML/CSS, ESP32, Arduino Uno</text>
+  </g>
+
+  <!-- Grid Item 4: Interests -->
+  <g transform="translate(420, 230)">
+    <rect width="36" height="36" rx="8" fill="#f43f5e" fill-opacity="0.1" stroke="#f43f5e" stroke-opacity="0.2" />
+    <path fill="none" stroke="#f43f5e" stroke-width="2px" stroke-linecap="round" stroke-linejoin="round" d="M9 18V5l12-2v13M6 18a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM18 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" transform="translate(6, 6) scale(0.7)" />
+    <text x="50" y="16" class="grid-title">Interests</text>
+    <text x="50" y="34" class="grid-text">Tabla, Sanskrit, Indian Scriptures, Classical Music</text>
+  </g>
 
 </svg>
