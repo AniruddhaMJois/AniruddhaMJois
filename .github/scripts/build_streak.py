@@ -1,37 +1,30 @@
-﻿import urllib.request
+import urllib.request
+import json
 import time
 import sys
 import re
-from datetime import datetime
 
 URL_STREAK = "https://streak-stats.demolab.com/?user=AniruddhaMJois&theme=tokyonight&hide_border=true&border_radius=15&timezone=Asia%2FKolkata"
-URL_COMMITS = "https://github-readme-stats-eight-theta.vercel.app/api?username=AniruddhaMJois&include_all_commits=true"
 OUTPUT_FILE = "streak.svg"
 
 def get_total_commits():
     try:
-        req = urllib.request.Request(URL_COMMITS, headers={'User-Agent': 'Mozilla/5.0'})
-        res = urllib.request.urlopen(req).read().decode('utf-8')
-        match = re.search(r'data-testid="commits"[^>]*>([0-9,kK\+]+)<', res)
-        if match:
-            return match.group(1)
-    except:
-        pass
-    return "1.3k+"
+        url = "https://api.github.com/search/commits?q=author:AniruddhaMJois"
+        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0', 'Accept': 'application/vnd.github.cloak-preview'})
+        res = urllib.request.urlopen(req, timeout=10).read().decode('utf-8')
+        data = json.loads(res)
+        if 'total_count' in data:
+            return str(data['total_count'])
+    except Exception as e:
+        print("Commit API failed:", e)
+    return "811"  # Fallback to current real count if rate limited
 
 total_commits = get_total_commits()
-
-# Calculate dynamic streak from Aug 14, 2026
-start_date = datetime(2026, 8, 14).date()
-today = datetime.now().date()
-dynamic_streak = (today - start_date).days + 1
-if dynamic_streak < 1:
-    dynamic_streak = 1
 
 for i in range(5):
     try:
         req = urllib.request.Request(URL_STREAK, headers={'User-Agent': 'Mozilla/5.0'})
-        response = urllib.request.urlopen(req)
+        response = urllib.request.urlopen(req, timeout=10)
         if response.getcode() == 200:
             svg_data = response.read().decode('utf-8')
             if "Failed to retrieve" not in svg_data:
@@ -78,41 +71,13 @@ for i in range(5):
                     svg_data, flags=re.DOTALL
                 )
 
-                # Modify Col 2 (Current Streak to dynamic_streak and Aug 14)
-                svg_data = re.sub(
-                    r'(<!-- Current Streak big number -->.*?<text[^>]*>)\s*[\d,]+\s*(</text>)',
-                    r'\g<1>' + str(dynamic_streak) + r'\g<2>',
-                    svg_data, flags=re.DOTALL
-                )
-                svg_data = re.sub(
-                    r'(<!-- Current Streak range -->.*?<text[^>]*>)[^<]+(</text>)',
-                    r'\g<1>Aug 14 - Present\g<2>',
-                    svg_data, flags=re.DOTALL
-                )
-
-                # Also update Longest Streak if dynamic streak > longest streak!
-                longest_num_match = re.search(r'<!-- Longest Streak big number -->.*?<text[^>]*>\s*([\d,]+)\s*</text>', svg_data, re.DOTALL)
-                if longest_num_match:
-                    longest_num = int(longest_num_match.group(1))
-                    if dynamic_streak > longest_num:
-                        svg_data = re.sub(
-                            r'(<!-- Longest Streak big number -->.*?<text[^>]*>)\s*[\d,]+\s*(</text>)',
-                            r'\g<1>' + str(dynamic_streak) + r'\g<2>',
-                            svg_data, flags=re.DOTALL
-                        )
-                        svg_data = re.sub(
-                            r'(<!-- Longest Streak range -->.*?<text[^>]*>)[^<]+(</text>)',
-                            r'\g<1>Aug 14 - Present\g<2>',
-                            svg_data, flags=re.DOTALL
-                        )
-
                 with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
                     f.write(svg_data)
-                print("Successfully generated 4-column SVG.")
+                print("Successfully generated 4-column SVG with real stats.")
                 sys.exit(0)
     except Exception as e:
         print(f"Error: {e}")
-    time.sleep(10)
+    time.sleep(5)
 
 print("Failed to fetch streak SVG after 5 attempts.")
 sys.exit(1)
