@@ -71,6 +71,42 @@ for i in range(5):
                     svg_data, flags=re.DOTALL
                 )
 
+                # Override Current Streak manually from Aug 14, 2026 (IST)
+                from datetime import datetime, timedelta, timezone
+                ist = timezone(timedelta(hours=5, minutes=30))
+                today = datetime.now(ist).date()
+                start_date = datetime(2026, 8, 14).date()
+                dynamic_streak = (today - start_date).days + 1
+                if dynamic_streak < 1:
+                    dynamic_streak = 1
+                    
+                svg_data = re.sub(
+                    r'(<!-- Current Streak big number -->.*?<text[^>]*>)\s*[\d,]+\s*(</text>)',
+                    r'\g<1>' + str(dynamic_streak) + r'\g<2>',
+                    svg_data, flags=re.DOTALL
+                )
+                svg_data = re.sub(
+                    r'(<!-- Current Streak range -->.*?<text[^>]*>)[^<]+(</text>)',
+                    r'\g<1>Aug 14 - Present\g<2>',
+                    svg_data, flags=re.DOTALL
+                )
+
+                # Also update Longest Streak if dynamic streak is greater
+                longest_num_match = re.search(r'<!-- Longest Streak big number -->.*?<text[^>]*>\s*([\d,]+)\s*</text>', svg_data, re.DOTALL)
+                if longest_num_match:
+                    longest_num = int(longest_num_match.group(1))
+                    if dynamic_streak > longest_num:
+                        svg_data = re.sub(
+                            r'(<!-- Longest Streak big number -->.*?<text[^>]*>)\s*[\d,]+\s*(</text>)',
+                            r'\g<1>' + str(dynamic_streak) + r'\g<2>',
+                            svg_data, flags=re.DOTALL
+                        )
+                        svg_data = re.sub(
+                            r'(<!-- Longest Streak range -->.*?<text[^>]*>)[^<]+(</text>)',
+                            r'\g<1>Aug 14 - Present\g<2>',
+                            svg_data, flags=re.DOTALL
+                        )
+
                 with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
                     f.write(svg_data)
                 print("Successfully generated 4-column SVG with real stats.")
