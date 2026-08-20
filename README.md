@@ -40,7 +40,7 @@
 | **✅ Karaneeyaani** | Cognitive Todo App | `🟩🟩🟩🟩🟩🟩🟩🟩⬛⬛` **80%** | 🔨 In Progress |
 | **🔋 Battery Thermal ID** | Embedded IoT | `🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩` **100%** | ✅ Live |
 | **🚀 FestFlow** | Event Dashboard | `🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩` **100%** | ✅ Live |
-| **🛡️ SafeX** | Women's Safety | `🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩` **100%** | ✅ Live |
+| **🛡️ SafeX** | Cyber Safety | `🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩` **100%** | ✅ Live |
 
 
 ---
