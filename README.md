@@ -37,7 +37,7 @@
 | :--- | :--- | :--- | :--- |
 | **🐘 TuskRes** | Early Conflict Alerts | `🟩🟩🟩⬛⬛⬛⬛⬛⬛⬛` **30%** | 💡 Ideation |
 | **🛡️ Gladiators NGO** | Community Platform | `🟩🟩🟩🟩🟩🟩🟩⬛⬛⬛` **70%** | 🔨 In Progress |
-| **✅ Karaneeyaani** | Cognitive Todo App | `🟩🟩🟩🟩🟩🟩🟩🟩⬛⬛` **80%** | 🔨 In Progress |
+| **✅ Vitta Sarinee** | Finance & Productivity | `🟩🟩🟩🟩🟩🟩🟩🟩🟩⬛` **90%** | 🔨 In Progress |
 | **🔋 Battery Thermal ID** | Embedded IoT | `🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩` **100%** | ✅ Live |
 | **🚀 FestFlow** | Event Dashboard | `🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩` **100%** | ✅ Live |
 | **🛡️ SafeX** | Cyber Safety | `🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩` **100%** | ✅ Live |
@@ -184,17 +184,17 @@ Embedded IoT system on ESP32 with C++ firmware to detect & predict battery therm
 </details>
 
 <details>
-<summary>&nbsp;<b>✅ Karaneeyaani</b> &nbsp;—&nbsp; Flow-Driven Todo App</summary>
+<summary>&nbsp;<b>✅ Vitta Sarinee</b> &nbsp;—&nbsp; Finance & Productivity App</summary>
 <br/>
 
-> A premium Todo application grounded in cognitive psychology to reduce procrastination and induce flow states.
+> An all-in-one unified dashboard for finance tracking, smart checklists, and secure notes with local biometric authentication.
 
 | Field | Details |
 |:--|:--|
 | **Stack** | Flutter · Dart · Firebase |
-| **Status** | ✅ Live & Maintained |
+| **Status** | 🔨 Actively Building |
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AniruddhaMJois/karaneeyani)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AniruddhaMJois/vitta-sarinee)
 
 </details>
 
@@ -278,7 +278,7 @@ Embedded IoT system on ESP32 with C++ firmware to detect & predict battery therm
 ## 📈 &nbsp;Real-Time Activity
 
 <!--START_SECTION:activity-->
-1. ✅ Launched **Karaneeyaani** — a premium flow-driven Todo application
+1. ✅ Launched **Vitta Sarinee** — an all-in-one finance and productivity app
 2. 🔨 Currently building **Gladiators NGO** — a platform for NGO community engagement
 3. 💡 Ideating on **TuskRes** — exploring innovative solutions
 4. 🛡️ Maintaining **SafeX** — women's safety platform
