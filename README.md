@@ -51,50 +51,50 @@
 
 #### 💻 &nbsp;Languages
 <p>
-<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
-<img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C" />
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart" />
+<img src="assets/badges/java.svg" alt="Java" />
+<img src="assets/badges/cpp.svg" alt="C++" />
+<img src="assets/badges/c.svg" alt="C" />
+<img src="assets/badges/python.svg" alt="Python" />
+<img src="assets/badges/dart.svg" alt="Dart" />
 </p>
 
 #### ⚙️ &nbsp;Embedded & Hardware
 <p>
-<img src="https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP32" />
-<img src="https://img.shields.io/badge/Embedded_C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="Embedded C++" />
-<img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino" />
+<img src="assets/badges/esp32.svg" alt="ESP32" />
+<img src="assets/badges/embedded_cpp.svg" alt="Embedded C++" />
+<img src="assets/badges/arduino.svg" alt="Arduino" />
 </p>
 
 #### 🌐 &nbsp;Web Technologies
 <p>
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css&logoColor=white" alt="CSS3" />
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
-<img src="https://img.shields.io/badge/Express.js-20232A?style=for-the-badge&logo=express&logoColor=white" alt="Express.js" />
+<img src="assets/badges/html5.svg" alt="HTML5" />
+<img src="assets/badges/css3.svg" alt="CSS3" />
+<img src="assets/badges/javascript.svg" alt="JavaScript" />
+<img src="assets/badges/react.svg" alt="React" />
+<img src="assets/badges/nodejs.svg" alt="Node.js" />
+<img src="assets/badges/express.svg" alt="Express.js" />
 </p>
 
 #### 📱 &nbsp;App Development
 <p>
-<img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
-<img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart" />
+<img src="assets/badges/flutter.svg" alt="Flutter" />
+<img src="assets/badges/dart.svg" alt="Dart" />
 </p>
 
 #### 🗄️ &nbsp;Databases & BaaS
 <p>
-<img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
-<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
-<img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" />
+<img src="assets/badges/supabase.svg" alt="Supabase" />
+<img src="assets/badges/mongodb.svg" alt="MongoDB" />
+<img src="assets/badges/firebase.svg" alt="Firebase" />
 </p>
 
 #### 🔧 &nbsp;Tools & Deployment
 <p>
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-<img src="https://img.shields.io/badge/GitHub-24292e?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-<img src="https://img.shields.io/badge/Vercel-20232A?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
-<img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black" alt="Render" />
-<img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xMiAwQzUuMzczIDAgMCA1LjM3MyAwIDEyczUuMzczIDEyIDEyIDEyIDEyLTUuMzczIDEyLTEyUzE4LjYyNyAwIDEyIDB6bS0xLjg5OCAxNy41MThjLTMuMTMgMC01LjI2Ny0yLjA5LTUuMjY3LTUuMTg0IDAtMy4zMiAyLjM3LTUuNTkgNS44NjctNS41OSAyLjE2NCAwIDMuNzM4LjkzIDQuMzc4IDIuNTkybC0yLjA2MiAxLjA1NWMtLjQ2My0uOTg0LTEuMjgtMS40Ni0yLjMxNi0xLjQ2LTEuODcgMC0zLjEzIDEuMzkzLTMuMTMgMy40MDMgMCAxLjk1IDEuMjIgMy4xMiAyLjk0IDMuMTIgMS4zNCAwIDIuMjItLjY1IDIuNjUtMS41N2wyLjA2IDEuMDVjLS44OCAxLjc3LTIuNjcgMi41ODQtNS4wOCAyLjU4NHoiLz48L3N2Zz4=&logoColor=white" alt="Canva" />
+<img src="assets/badges/git.svg" alt="Git" />
+<img src="assets/badges/github.svg" alt="GitHub" />
+<img src="assets/badges/vercel.svg" alt="Vercel" />
+<img src="assets/badges/render.svg" alt="Render" />
+<img src="assets/badges/canva.svg" alt="Canva" />
 </p>
 
 </div>
@@ -110,7 +110,7 @@
 <td align="center" width="46%">
 <br/>
 
-![1st](https://img.shields.io/badge/-%F0%9F%A5%87%20%20FIRST%20PLACE-FFD700?style=for-the-badge&labelColor=1a1a2e)
+![1st](assets/badges/first_place.svg)
 
 ### 🛡️ SafeX
 **Clash of Cortex Hackathon**
@@ -119,14 +119,14 @@ AI-powered women's safety platform with real-time threat detection, one-tap SOS 
 
 `TypeScript` &nbsp; `Next.js` &nbsp; `Firebase`
 
-[![View Project](https://img.shields.io/badge/View%20Project-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AniruddhaMJois/safex)
+[![View Project](assets/badges/view_project.svg)](https://github.com/AniruddhaMJois/safex)
 
 </td>
 <td width="4%"></td>
 <td align="center" width="46%">
 <br/>
 
-![2nd](https://img.shields.io/badge/-%F0%9F%A5%88%20%20SECOND%20PLACE-C0C0C0?style=for-the-badge&labelColor=1a1a2e)
+![2nd](assets/badges/second_place.svg)
 
 ### 🔋 Battery Thermal Runaway ID
 **ThermoSpark Hackathon**
@@ -135,7 +135,7 @@ Embedded IoT system on ESP32 with C++ firmware to detect & predict battery therm
 
 `ESP32` &nbsp; `Embedded C++` &nbsp; `IoT`
 
-[![View Project](https://img.shields.io/badge/View%20Project-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AniruddhaMJois/battery-thermal-runaway-identifier)
+[![View Project](assets/badges/view_project.svg)](https://github.com/AniruddhaMJois/battery-thermal-runaway-identifier)
 
 </td>
 </tr>
@@ -148,7 +148,7 @@ Embedded IoT system on ESP32 with C++ firmware to detect & predict battery therm
 ## 🚀 &nbsp;Projects
 
 <details>
-<summary>&nbsp;<b>🛡️ SafeX</b> &nbsp;—&nbsp; Women's Safety Platform &nbsp;&nbsp;<img src="https://img.shields.io/badge/%F0%9F%A5%87%201st-Clash%20of%20Cortex-FFD700?style=flat-square&labelColor=1a1a2e" /></summary>
+<summary>&nbsp;<b>🛡️ SafeX</b> &nbsp;—&nbsp; Women's Safety Platform &nbsp;&nbsp;<img src="assets/badges/safex_1st.svg" alt="1st Place" /></summary>
 <br/>
 
 > Real-time threat detection and emergency response platform built for women's safety.
@@ -159,12 +159,12 @@ Embedded IoT system on ESP32 with C++ firmware to detect & predict battery therm
 | **Status** | ✅ Live & Maintained |
 | **Won** | 🥇 1st Place — Clash of Cortex |
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AniruddhaMJois/safex)
+[![GitHub](assets/badges/github_flat.svg)](https://github.com/AniruddhaMJois/safex)
 
 </details>
 
 <details>
-<summary>&nbsp;<b>🔋 Battery Thermal Runaway Identifier</b> &nbsp;—&nbsp; IoT Safety System &nbsp;&nbsp;<img src="https://img.shields.io/badge/%F0%9F%A5%88%202nd-ThermoSpark-C0C0C0?style=flat-square&labelColor=1a1a2e" /></summary>
+<summary>&nbsp;<b>🔋 Battery Thermal Runaway Identifier</b> &nbsp;—&nbsp; IoT Safety System &nbsp;&nbsp;<img src="assets/badges/thermo_2nd.svg" alt="2nd Place" /></summary>
 <br/>
 
 > ESP32-based embedded system to detect and predict battery thermal runaway conditions.
@@ -175,7 +175,7 @@ Embedded IoT system on ESP32 with C++ firmware to detect & predict battery therm
 | **Status** | ✅ Live & Maintained |
 | **Won** | 🥈 2nd Place — ThermoSpark |
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AniruddhaMJois/battery-thermal-runaway-identifier)
+[![GitHub](assets/badges/github_flat.svg)](https://github.com/AniruddhaMJois/battery-thermal-runaway-identifier)
 
 </details>
 
@@ -190,7 +190,7 @@ Embedded IoT system on ESP32 with C++ firmware to detect & predict battery therm
 | **Stack** | Flutter · Dart · Firebase |
 | **Status** | 🔨 Actively Building |
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AniruddhaMJois/vitta-sarinee)
+[![GitHub](assets/badges/github_flat.svg)](https://github.com/AniruddhaMJois/vitta-sarinee)
 
 </details>
 
@@ -205,14 +205,14 @@ Embedded IoT system on ESP32 with C++ firmware to detect & predict battery therm
 | **Stack** | HTML5 · CSS3 · JavaScript · WebSerial · Leaflet.js |
 | **Status** | ✅ Live & Maintained |
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AniruddhaMJois/festflow)
+[![GitHub](assets/badges/github_flat.svg)](https://github.com/AniruddhaMJois/festflow)
 
 </details>
 
 <details>
 <summary>&nbsp;<b>🤝 Gladiators NGO</b> &nbsp;—&nbsp; NGO Community Platform</summary>
 <br/>
-
+ 
 > A digital platform to connect, empower and coordinate NGO communities.
 
 | Field | Details |
@@ -220,7 +220,7 @@ Embedded IoT system on ESP32 with C++ firmware to detect & predict battery therm
 | **Stack** | React · JavaScript · Vite · CSS |
 | **Status** | 🔨 Actively Building |
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AniruddhaMJois/gladiators-ngo)
+[![GitHub](assets/badges/github_flat.svg)](https://github.com/AniruddhaMJois/gladiators-ngo)
 
 </details>
 
@@ -235,7 +235,7 @@ Embedded IoT system on ESP32 with C++ firmware to detect & predict battery therm
 | **Stack** | JavaScript |
 | **Status** | 💡 Ideation Phase |
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AniruddhaMJois/tuskres)
+[![GitHub](assets/badges/github_flat.svg)](https://github.com/AniruddhaMJois/tuskres)
 
 </details>
 
@@ -245,7 +245,7 @@ Embedded IoT system on ESP32 with C++ firmware to detect & predict battery therm
 
 <div align="center">
 
-<img width="80%" src="streak.svg?v=1792588249" alt="GitHub Streak" />
+<img width="80%" src="streak.svg?v=1792589267" alt="GitHub Streak" />
 
 <br/><br/>
 
@@ -258,9 +258,9 @@ Embedded IoT system on ESP32 with C++ firmware to detect & predict battery therm
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AniruddhaMJois/AniruddhaMJois/output/github-snake-dark.svg?v=1792588249" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AniruddhaMJois/AniruddhaMJois/output/github-snake.svg?v=1792588249" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/AniruddhaMJois/AniruddhaMJois/output/github-snake.svg?v=1792588249" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AniruddhaMJois/AniruddhaMJois/output/github-snake-dark.svg?v=1792589267" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AniruddhaMJois/AniruddhaMJois/output/github-snake.svg?v=1792589267" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/AniruddhaMJois/AniruddhaMJois/output/github-snake.svg?v=1792589267" width="100%" />
 </picture>
 
 > ⏳ *Snake animation auto-generates via GitHub Actions — run the workflow manually under the [Actions tab](https://github.com/AniruddhaMJois/AniruddhaMJois/actions) for instant results!*
