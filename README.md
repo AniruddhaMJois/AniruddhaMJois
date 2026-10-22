@@ -38,6 +38,7 @@
 | **🐘 TuskRes** | Early Conflict Alerts | `🟩🟩🟩⬛⬛⬛⬛⬛⬛⬛` **30%** | 💡 Ideation |
 | **🛡️ Gladiators NGO** | Community Platform | `🟩🟩🟩🟩🟩🟩🟩⬛⬛⬛` **70%** | 🔨 In Progress |
 | **✅ Vitta Sarinee** | Finance & Productivity | `🟩🟩🟩🟩🟩🟩🟩🟩🟩⬛` **90%** | 🔨 In Progress |
+| **✅ Karaneeyaani** | Day Schedule Flow | `🟩🟩🟩🟩🟩🟩🟩🟩🟩⬛` **90%** | 🔨 In Progress |
 | **🔋 Battery Thermal ID** | Embedded IoT | `🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩` **100%** | ✅ Live |
 | **🚀 FestFlow** | Event Dashboard | `🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩` **100%** | ✅ Live |
 | **🛡️ SafeX** | Cyber Safety | `🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩` **100%** | ✅ Live |
