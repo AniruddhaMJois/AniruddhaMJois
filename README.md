@@ -275,12 +275,13 @@ Embedded IoT system on ESP32 with C++ firmware to detect & predict battery therm
 ## 📈 &nbsp;Real-Time Activity
 
 <!--START_SECTION:activity-->
-1. 🔐 Enhanced **Vitta Sarinee** with biometric authentication & Linux parity
-2. 🔨 Currently building **Gladiators NGO** — a platform for NGO community engagement
-3. 💡 Ideating on **TuskRes** — exploring innovative solutions
-4. 🛡️ Maintaining **SafeX** — women's safety platform
-5. 🔋 Iterating on **Battery Thermal Runaway Identifier**
-6. 🚀 Maintained **FestFlow** — real-time IoT event dashboard
+1. 🚀 Deployed **Coding Platform** Next.js migration, cloud sandboxing & proctoring safeguards
+2. 🔐 Enhanced **Vitta Sarinee** with biometric authentication & Linux parity
+3. 🔨 Currently building **Gladiators NGO** — a platform for NGO community engagement
+4. 💡 Ideating on **TuskRes** — exploring innovative solutions
+5. 🛡️ Maintaining **SafeX** — women's safety platform
+6. 🔋 Iterating on **Battery Thermal Runaway Identifier**
+7. 🚀 Maintained **FestFlow** — real-time IoT event dashboard
 <!--END_SECTION:activity-->
 
 ---

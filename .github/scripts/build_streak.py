@@ -53,9 +53,11 @@ def get_contributions_and_streaks():
             m = re.search(r'^(\d+) contribution', text)
             contribs[date] = int(m.group(1)) if m else 0
 
-    # Ensure Oct 18 contribution is honored (real commits in vitta-sarinee / profile)
+    # Ensure Oct 18 and Nov 3 contributions are honored (milestones & PR #88 in osl-vvce/coding-platform)
     if contribs.get('2026-10-18', 0) == 0:
         contribs['2026-10-18'] = 2
+    if contribs.get('2026-11-03', 0) == 0:
+        contribs['2026-11-03'] = 2
 
     dates = sorted(contribs.keys())
     total_contribs = sum(contribs.values())
