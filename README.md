@@ -35,6 +35,7 @@
 
 | Project | Type | Progress | Status |
 | :--- | :--- | :--- | :--- |
+| **⚡ Prayog** | Edge-AI Sensor Fusion | `🟩🟩🟩🟩🟩🟩🟩🟩🟩⬛` **90%** | 🔨 In Progress |
 | **🐘 TuskRes** | Early Conflict Alerts | `🟩🟩🟩⬛⬛⬛⬛⬛⬛⬛` **30%** | 💡 Ideation |
 | **🛡️ Gladiators NGO** | Community Platform | `🟩🟩🟩🟩🟩🟩🟩⬛⬛⬛` **70%** | 🔨 In Progress |
 | **✅ Vitta Sarinee** | Finance & Productivity | `🟩🟩🟩🟩🟩🟩🟩🟩🟩⬛` **90%** | 🔨 In Progress |
@@ -246,7 +247,7 @@ Embedded IoT system on ESP32 with C++ firmware to detect & predict battery therm
 
 <div align="center">
 
-<img width="80%" src="streak.svg?v=1794057701" alt="GitHub Streak" />
+<img width="80%" src="streak.svg?v=1794068415" alt="GitHub Streak" />
 
 <br/><br/>
 
@@ -259,9 +260,9 @@ Embedded IoT system on ESP32 with C++ firmware to detect & predict battery therm
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AniruddhaMJois/AniruddhaMJois/output/github-snake-dark.svg?v=1794057701" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AniruddhaMJois/AniruddhaMJois/output/github-snake.svg?v=1794057701" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/AniruddhaMJois/AniruddhaMJois/output/github-snake.svg?v=1794057701" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AniruddhaMJois/AniruddhaMJois/output/github-snake-dark.svg?v=1794068415" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AniruddhaMJois/AniruddhaMJois/output/github-snake.svg?v=1794068415" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/AniruddhaMJois/AniruddhaMJois/output/github-snake.svg?v=1794068415" width="100%" />
 </picture>
 
 > ⏳ *Snake animation auto-generates via GitHub Actions — run the workflow manually under the [Actions tab](https://github.com/AniruddhaMJois/AniruddhaMJois/actions) for instant results!*
@@ -275,15 +276,15 @@ Embedded IoT system on ESP32 with C++ firmware to detect & predict battery therm
 ## 📈 &nbsp;Real-Time Activity
 
 <!--START_SECTION:activity-->
-1. 🎨 Optimized **IVC Web** — responsive photo cards & event gallery layout fixes
-2. 🌐 Refactored **IVC Web** — gallery photo collection & team architecture
-3. 🚀 Deployed **Coding Platform** Next.js migration, cloud sandboxing & proctoring safeguards
-4. 🔐 Enhanced **Vitta Sarinee** with biometric authentication & Linux parity
-5. 🔨 Currently building **Gladiators NGO** — a platform for NGO community engagement
-6. 💡 Ideating on **TuskRes** — exploring innovative solutions
-7. 🛡️ Maintaining **SafeX** — women's safety platform
-8. 🔋 Iterating on **Battery Thermal Runaway Identifier**
-9. 🚀 Maintained **FestFlow** — real-time IoT event dashboard
+1. ⚡ Architected **Prayog** — Edge-AI multi-modal EV motor fault diagnosis & Random Forest telemetry
+2. 🎨 Optimized **IVC Web** — responsive photo cards & event gallery layout fixes
+3. 🌐 Refactored **IVC Web** — gallery photo collection & team architecture
+4. 🚀 Deployed **Coding Platform** Next.js migration, cloud sandboxing & proctoring safeguards
+5. 🔐 Enhanced **Vitta Sarinee** with biometric authentication & Linux parity
+6. 🔨 Currently building **Gladiators NGO** — a platform for NGO community engagement
+7. 💡 Ideating on **TuskRes** — exploring innovative solutions
+8. 🛡️ Maintaining **SafeX** — women's safety platform
+9. 🔋 Iterating on **Battery Thermal Runaway Identifier**
 <!--END_SECTION:activity-->
 
 ---

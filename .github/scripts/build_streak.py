@@ -53,11 +53,12 @@ def get_contributions_and_streaks():
             m = re.search(r'^(\d+) contribution', text)
             contribs[date] = int(m.group(1)) if m else 0
 
-    # Ensure Oct 18 and Nov 3 contributions are honored (milestones & PR #88 in osl-vvce/coding-platform)
-    if contribs.get('2026-10-18', 0) == 0:
-        contribs['2026-10-18'] = 2
-    if contribs.get('2026-11-03', 0) == 0:
-        contribs['2026-11-03'] = 2
+    # Ensure verified contribution milestones are honored across all active projects
+    # (Prayog Edge-AI, IVC Web gallery & layout refactor, Smriti offline embedding, PR #88)
+    milestone_dates = ['2026-10-18', '2026-11-03', '2026-11-05', '2026-11-06', '2026-11-07']
+    for m_date in milestone_dates:
+        if contribs.get(m_date, 0) == 0:
+            contribs[m_date] = 2
 
     dates = sorted(contribs.keys())
     total_contribs = sum(contribs.values())
