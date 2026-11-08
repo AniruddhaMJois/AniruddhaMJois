@@ -247,7 +247,7 @@ Embedded IoT system on ESP32 with C++ firmware to detect & predict battery therm
 
 <div align="center">
 
-<img width="80%" src="streak.svg?v=1794207614" alt="GitHub Streak" />
+<img width="80%" src="streak.svg?v=1794225532" alt="GitHub Streak" />
 
 <br/><br/>
 
@@ -260,9 +260,9 @@ Embedded IoT system on ESP32 with C++ firmware to detect & predict battery therm
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AniruddhaMJois/AniruddhaMJois/output/github-snake-dark.svg?v=1794207614" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AniruddhaMJois/AniruddhaMJois/output/github-snake.svg?v=1794207614" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/AniruddhaMJois/AniruddhaMJois/output/github-snake.svg?v=1794207614" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AniruddhaMJois/AniruddhaMJois/output/github-snake-dark.svg?v=1794225532" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AniruddhaMJois/AniruddhaMJois/output/github-snake.svg?v=1794225532" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/AniruddhaMJois/AniruddhaMJois/output/github-snake.svg?v=1794225532" width="100%" />
 </picture>
 
 > ⏳ *Snake animation auto-generates via GitHub Actions — run the workflow manually under the [Actions tab](https://github.com/AniruddhaMJois/AniruddhaMJois/actions) for instant results!*
@@ -276,15 +276,15 @@ Embedded IoT system on ESP32 with C++ firmware to detect & predict battery therm
 ## 📈 &nbsp;Real-Time Activity
 
 <!--START_SECTION:activity-->
-1. ⚡ Architected **Prayog** — Edge-AI multi-modal EV motor fault diagnosis & Random Forest telemetry
-2. 🎨 Optimized **IVC Web** — responsive photo cards & event gallery layout fixes
-3. 🌐 Refactored **IVC Web** — gallery photo collection & team architecture
-4. 🚀 Deployed **Coding Platform** Next.js migration, cloud sandboxing & proctoring safeguards
-5. 🔐 Enhanced **Vitta Sarinee** with biometric authentication & Linux parity
-6. 🔨 Currently building **Gladiators NGO** — a platform for NGO community engagement
-7. 💡 Ideating on **TuskRes** — exploring innovative solutions
-8. 🛡️ Maintaining **SafeX** — women's safety platform
-9. 🔋 Iterating on **Battery Thermal Runaway Identifier**
+1. 🎨 Optimized **IVC Web** — compressed gitopia gallery images & cleaned event collages
+2. ⚡ Resolved Issue #82 on **Coding Platform** — Next.js migration architecture & CMS design
+3. ⚡ Architected **Prayog** — Edge-AI multi-modal EV motor fault diagnosis & Random Forest telemetry
+4. 🌐 Refactored **IVC Web** — gallery photo collection & team architecture
+5. 🚀 Deployed **Coding Platform** Next.js migration, cloud sandboxing & proctoring safeguards
+6. 🔐 Enhanced **Vitta Sarinee** with biometric authentication & Linux parity
+7. 🔨 Currently building **Gladiators NGO** — a platform for NGO community engagement
+8. 💡 Ideating on **TuskRes** — exploring innovative solutions
+9. 🛡️ Maintaining **SafeX** — women's safety platform
 <!--END_SECTION:activity-->
 
 ---
