@@ -276,15 +276,15 @@ Embedded IoT system on ESP32 with C++ firmware to detect & predict battery therm
 ## 📈 &nbsp;Real-Time Activity
 
 <!--START_SECTION:activity-->
-1. 🎨 Optimized **IVC Web** — compressed gitopia gallery images & cleaned event collages
-2. ⚡ Resolved Issue #82 on **Coding Platform** — Next.js migration architecture & CMS design
-3. ⚡ Architected **Prayog** — Edge-AI multi-modal EV motor fault diagnosis & Random Forest telemetry
-4. 🌐 Refactored **IVC Web** — gallery photo collection & team architecture
-5. 🚀 Deployed **Coding Platform** Next.js migration, cloud sandboxing & proctoring safeguards
-6. 🔐 Enhanced **Vitta Sarinee** with biometric authentication & Linux parity
-7. 🔨 Currently building **Gladiators NGO** — a platform for NGO community engagement
-8. 💡 Ideating on **TuskRes** — exploring innovative solutions
-9. 🛡️ Maintaining **SafeX** — women's safety platform
+1. 📱 Shipped **Karaneeyaani** — multi-platform desktop & mobile distribution with Supabase sync
+2. 📦 Released **Vitta Sarinee** — Linux x64 and Android release binaries with automated setup
+3. 🎨 Optimized **IVC Web** — compressed gitopia gallery images & cleaned event collages
+4. ⚡ Resolved Issue #82 on **Coding Platform** — Next.js migration architecture & CMS design
+5. ⚡ Architected **Prayog** — Edge-AI multi-modal EV motor fault diagnosis & Random Forest telemetry
+6. 🌐 Refactored **IVC Web** — gallery photo collection & team architecture
+7. 🚀 Deployed **Coding Platform** Next.js migration, cloud sandboxing & proctoring safeguards
+8. 🔐 Enhanced **Vitta Sarinee** with biometric authentication & Linux parity
+9. 🔨 Currently building **Gladiators NGO** — a platform for NGO community engagement
 <!--END_SECTION:activity-->
 
 ---
