@@ -247,7 +247,7 @@ Embedded IoT system on ESP32 with C++ firmware to detect & predict battery therm
 
 <div align="center">
 
-<img width="80%" src="streak.svg?v=1794390135" alt="GitHub Streak" />
+<img width="80%" src="streak.svg?v=1794419914" alt="GitHub Streak" />
 
 <br/><br/>
 
@@ -260,9 +260,9 @@ Embedded IoT system on ESP32 with C++ firmware to detect & predict battery therm
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AniruddhaMJois/AniruddhaMJois/output/github-snake-dark.svg?v=1794390135" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AniruddhaMJois/AniruddhaMJois/output/github-snake.svg?v=1794390135" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/AniruddhaMJois/AniruddhaMJois/output/github-snake.svg?v=1794390135" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AniruddhaMJois/AniruddhaMJois/output/github-snake-dark.svg?v=1794419914" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AniruddhaMJois/AniruddhaMJois/output/github-snake.svg?v=1794419914" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/AniruddhaMJois/AniruddhaMJois/output/github-snake.svg?v=1794419914" width="100%" />
 </picture>
 
 > ⏳ *Snake animation auto-generates via GitHub Actions — run the workflow manually under the [Actions tab](https://github.com/AniruddhaMJois/AniruddhaMJois/actions) for instant results!*
