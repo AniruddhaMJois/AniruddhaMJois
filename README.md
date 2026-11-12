@@ -42,7 +42,7 @@
 | **✅ Karaneeyaani** | Day Schedule Flow | `🟩🟩🟩🟩🟩🟩🟩🟩🟩⬛` **90%** | 🔨 In Progress |
 | **🔋 Battery Thermal ID** | Embedded IoT | `🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩` **100%** | ✅ Live |
 | **🚀 FestFlow** | Event Dashboard | `🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩` **100%** | ✅ Live |
-| **🛡️ SafeX** | Cyber Safety | `🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩` **100%** | ✅ Live |
+| **🛡️ SafeX** | Cyber Safety Solution | `🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩` **100%** | ✅ Live |
 
 
 ---
