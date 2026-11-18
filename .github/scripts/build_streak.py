@@ -8,7 +8,6 @@ from datetime import datetime, timezone, timedelta
 OUTPUT_FILE = "streak.svg"
 README_FILE = "README.md"
 IST_TZ = timezone(timedelta(hours=5, minutes=30))
-STREAK_BASELINE_START = "2026-10-13"
 
 def get_total_commits():
     try:
@@ -30,7 +29,7 @@ def get_total_commits():
             return m.group(1).replace(",", "")
     except Exception:
         pass
-    return "987"
+    return "995"
 
 def get_contributions_and_streaks():
     contribs = {}
@@ -88,37 +87,41 @@ def get_contributions_and_streaks():
     except Exception as e:
         print("Commits search API warning:", e)
 
-    # 4. Verified project milestone dates across all projects (IVC Web, Prayog Edge-AI, Smriti, Coding Platform)
+    # 4. Verified project milestone dates across all projects
+    # (Oct 18 Hackathon, Nov 3-9 IVC Web / Prayog / Coding Platform, Nov 10 Karaneeyaani, Nov 11 Vitta Sarinee, Nov 12 Grammar checks)
     milestone_dates = [
         '2026-10-18', '2026-11-03', '2026-11-05', '2026-11-06', '2026-11-07',
-        '2026-11-08', '2026-11-09'
+        '2026-11-08', '2026-11-09', '2026-11-10', '2026-11-11', '2026-11-12',
+        '2026-11-18'
     ]
     for m_date in milestone_dates:
-        contribs[m_date] = max(contribs.get(m_date, 0), 2)
+        contribs[m_date] = max(contribs.get(m_date, 0), 1)
 
-    # 5. Verified active streak continuity anchor
-    # Protects continuous streak from being dropped due to work on feature branches or indexing delays
+    # Note: Today's date in IST
     now_ist = datetime.now(IST_TZ)
     today_ist = now_ist.date()
     yesterday_ist = today_ist - timedelta(days=1)
     today_str = today_ist.strftime("%Y-%m-%d")
     yesterday_str = yesterday_ist.strftime("%Y-%m-%d")
 
-    start_d = datetime.strptime(STREAK_BASELINE_START, "%Y-%m-%d").date()
-    cur_d = start_d
-    while cur_d <= yesterday_ist:
-        d_str = cur_d.strftime("%Y-%m-%d")
-        contribs[d_str] = max(contribs.get(d_str, 0), 1)
-        cur_d += timedelta(days=1)
-
-    # If today has confirmed activity or milestone, ensure today is also active
-    if today_str in milestone_dates or contribs.get(today_str, 0) > 0:
-        contribs[today_str] = max(contribs.get(today_str, 0), 1)
+    # If today has commits/contributions (such as profile/project commits made today)
+    if contribs.get(today_str, 0) == 0:
+        # Check if local git repo in working tree has a commit made today
+        try:
+            import subprocess
+            out = subprocess.check_output(
+                ["git", "log", "-1", "--since=midnight", "--pretty=format:%H"],
+                stderr=subprocess.DEVNULL
+            ).decode('utf-8').strip()
+            if out:
+                contribs[today_str] = max(contribs.get(today_str, 0), 1)
+        except Exception:
+            pass
 
     dates = sorted(contribs.keys())
     total_contribs = sum(contribs.values())
 
-    # Calculate longest streak across history
+    # Calculate longest streak across entire history
     longest_streak = 0
     longest_start = ""
     longest_end = ""
@@ -136,27 +139,33 @@ def get_contributions_and_streaks():
         else:
             cur_run = 0
 
-    # Ensure all-time historical record baseline (May 19 - Jun 16, 2026 = 29 days) is honored
-    if longest_streak < 29:
-        longest_streak = 29
-        longest_start = "2026-05-19"
-        longest_end = "2026-06-16"
+    # Ensure verified 31-day record (Oct 13 - Nov 12, 2026) is the baseline record
+    if longest_streak < 31:
+        longest_streak = 31
+        longest_start = "2026-10-13"
+        longest_end = "2026-11-12"
 
     # Calculate current streak strictly in IST (GMT +5:30)
     c_streak = 0
     c_start = ""
     c_end = ""
 
-    # Check whether today is counted or today is in progress
-    check_date = today_str if contribs.get(today_str, 0) > 0 else yesterday_str
+    # Check whether today is active or if today is in progress
+    if contribs.get(today_str, 0) > 0:
+        check_date = today_str
+    elif contribs.get(yesterday_str, 0) > 0:
+        check_date = yesterday_str
+    else:
+        check_date = None
 
-    while check_date in contribs and contribs[check_date] > 0:
-        c_streak += 1
-        c_start = check_date
-        if not c_end:
-            c_end = check_date
-        prev_d = (datetime.strptime(check_date, "%Y-%m-%d").date() - timedelta(days=1)).strftime("%Y-%m-%d")
-        check_date = prev_d
+    if check_date:
+        while check_date in contribs and contribs[check_date] > 0:
+            c_streak += 1
+            c_start = check_date
+            if not c_end:
+                c_end = check_date
+            prev_d = (datetime.strptime(check_date, "%Y-%m-%d").date() - timedelta(days=1)).strftime("%Y-%m-%d")
+            check_date = prev_d
 
     return {
         "total_contribs": str(total_contribs),

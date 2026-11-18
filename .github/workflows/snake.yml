@@ -2,8 +2,8 @@ name: Generate Snake and Update Profile
 
 on:
   schedule:
-    # Runs every 2 hours at :30 (18:30 UTC is exact midnight 00:00 IST)
-    - cron: "30 */2 * * *"
+    # Runs everyday at 11:59 PM IST (18:29 UTC) to fetch and lock in the day's contributions
+    - cron: "29 18 * * *"
   workflow_dispatch:
   push:
     branches:
